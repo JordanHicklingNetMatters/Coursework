@@ -1,1 +1,53 @@
-/*# sourceMappingURL=style.css.map */
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.main-logo {
+  margin-left: 16%;
+  width: 400px;
+  padding: 10px;
+}
+
+.support-btn {
+  width: 140px;
+  height: 55px;
+  margin-top: 10px;
+  margin-left: 40%;
+  border-color: #4183d7;
+  background-color: #4183d7;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.contact-btn {
+  width: 140px;
+  height: 55px;
+  margin-top: 10px;
+  margin-left: 50%;
+  border-color: #9b9d9e;
+  background-color: #9b9d9e;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.main-nav {
+  background-color: #333645;
+  text-align: center;
+  list-style-type: none;
+  color: #fff;
+}
+
+.first-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  font-size: 20px;
+}
+
+.main-nav li {
+  margin-left: 140px;
+}/*# sourceMappingURL=style.css.map */
