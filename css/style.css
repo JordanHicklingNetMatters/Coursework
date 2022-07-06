@@ -1,0 +1,7 @@
+.card {
+  position: relative;
+  background-color: red;
+}
+.card .card__name {
+  background-color: blueviolet;
+}/*# sourceMappingURL=style.css.map */
