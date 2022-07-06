@@ -1,3 +1,42 @@
+li .fa-uncharted {
+  color: #67809f;
+}
+
+.fa-desktop {
+  color: #4183d7;
+}
+
+.fa-chart-simple {
+  color: #2ecc71;
+}
+
+.fa-phone {
+  color: #d64541;
+}
+
+.fa-code {
+  color: #926fb1;
+}
+
+.fa-shield-quartered {
+  color: #f62459;
+}
+
+.fa-graduation-cap {
+  color: #ce4125;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  color: #666;
+}
+
 .container {
   display: flex;
   margin-top: 10px;
@@ -33,6 +72,11 @@
   letter-spacing: 2px;
 }
 
+.form-control {
+  display: inline-block;
+  width: 240px;
+}
+
 .main-nav {
   background-color: #333645;
   text-align: center;
@@ -50,4 +94,10 @@
 
 .main-nav li {
   margin-left: 140px;
+}
+
+#banner .meeting {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
