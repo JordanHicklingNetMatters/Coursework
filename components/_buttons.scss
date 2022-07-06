@@ -1,0 +1,54 @@
+.support-btn {
+    width: 140px;
+    height: 55px;
+    margin-top: 14px;
+    margin-left: 40%;
+    border-color: #4183d7;
+    background-color: #4183d7;
+    color: $white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    &:hover {
+        filter: brightness(0.85)
+    }
+}
+
+.contact-btn {
+    width: 140px;
+    height: 55px;
+    margin-top: 14px;
+    margin-left: 50%;
+    border-color:   #9b9d9e;
+    background-color: #9b9d9e;
+    color: $white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    &:hover {
+        filter: brightness(0.85)
+    }
+  }
+
+  .search-btn {
+        margin-top: 14px;
+        margin-left: 0.05px;
+        height: 56px;
+        width: 56px;
+        background-color: #999aa2;
+        color: $white;
+        border-color: #666;
+        font-size: 25px;
+    &:hover {
+        filter: brightness(0.85)
+    }
+}
+
+.hamburger-btn {
+    height: 56px;
+    width: 70px;
+    margin-top: 14px;
+    margin-left: 1%;
+    font-size: 35px;
+    background-color: #333645;
+    border-color: #333645;
+    color: $white;
+}
