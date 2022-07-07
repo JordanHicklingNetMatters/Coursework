@@ -1,8 +1,10 @@
-@import "../utilities/variables.scss";
-@import "../components/images.scss";
-@import "../components/buttons.scss";
-@import "../content/banner.scss";
-@import "../content/navigation.scss";
+@import "../utilities/variables.scss",
+        "../components/images.scss",
+        "../components/buttons.scss",
+        "../content/banner.scss",
+        "../content/navigation.scss",
+        "../utilities/_media.scss";
+
 
 html {
     font-size: 16px;
