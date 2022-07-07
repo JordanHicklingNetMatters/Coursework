@@ -130,12 +130,28 @@
   text-decoration: none;
   color: #fff;
 }
-.main-nav a:hover {
+.main-nav a:hover .software {
+  background-color: #67809f;
+}
+.main-nav a:hover .support {
+  background-color: #20caf5;
+}
+.main-nav a:hover .marketing {
   background-color: green;
 }
+.main-nav a:hover .telecoms {
+  background-color: #f72323;
+}
+.main-nav a:hover .web-design {
+  background-color: magenta;
+}
+.main-nav a:hover .cyber-security {
+  background-color: #f5116c;
+}
+.main-nav a:hover .developer-course {
+  background-color: orange;
+}
 .main-nav .first-list {
-  flex-direction: row;
-  justify-content: center;
   list-style: none;
   color: #fff;
 }
@@ -143,22 +159,11 @@
   display: inline-block;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1000px) {
   .main-nav {
     display: none;
   }
 }
-html {
-  font-size: 16px;
-}
-
-body {
-  font-family: Poppins, sans-serif;
-  font-size: 1rem;
-  letter-spacing: 0.4px;
-  color: #666;
-}
-
 .container {
   display: flex;
   margin-top: 10px;
@@ -178,4 +183,24 @@ body {
   height: 50px;
   border-radius: 0;
   border-color: #666;
+}
+
+html {
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  color: #666;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }/*# sourceMappingURL=style.css.map */

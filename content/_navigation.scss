@@ -21,11 +21,29 @@
         color: $white;
     }
     a:hover {
-        background-color: green;
+        .software{
+            background-color: #67809f;
+        }
+        .support {
+            background-color: #20caf5;
+        }
+        .marketing {
+            background-color: green;
+        }
+        .telecoms {
+            background-color:  #f72323;
+        }
+        .web-design {
+            background-color: magenta;
+        }
+        .cyber-security {
+            background-color: #f5116c;
+        }
+        .developer-course {
+            background-color: orange;
+        }
     }
     .first-list {
-        flex-direction: row;
-        justify-content: center;
         list-style: none;
         color: $white;
     }

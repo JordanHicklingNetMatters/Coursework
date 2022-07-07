@@ -3,11 +3,17 @@
         "../components/buttons.scss",
         "../content/banner.scss",
         "../content/navigation.scss",
-        "../utilities/_media.scss";
+        "../utilities/_media.scss",
+        "../content/_header.scss";
 
 
 html {
     font-size: 16px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 body {
@@ -15,28 +21,11 @@ body {
     font-size: 1rem;
     letter-spacing: .4px;
     color: #666;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
-
-.container {
-    display: flex;
-    margin-top: 10px;
-}
-
-.main-logo {
-    margin-left: 0;
-    width: 400px;
-    padding: 10px;
-}
-
-  .form-control {
-    float: right;
-    width: 240px;
-    margin-top: 14px;
-    margin-left: 100px;
-    height: 50px;
-    border-radius: 0;
-    border-color: #666;
-  }
 
 
 
