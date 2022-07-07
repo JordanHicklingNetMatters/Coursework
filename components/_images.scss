@@ -1,5 +1,9 @@
 li .fa-uncharted {
     color: #67809f;
+    .fa-uncharted:hover {
+        cursor: pointer;
+        background-color: #ce4125;
+    }
 }
 
 .fa-desktop {
