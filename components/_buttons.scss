@@ -1,8 +1,8 @@
 .support-btn {
-	width: 60px;
-    height: 20%;
-    margin-left: 150px;
-    padding: 20%;
+	width: 150px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
     border-color: #4183d7;
     background-color: #4183d7;
     color: $white;
@@ -29,14 +29,13 @@
   }
 
   .search-btn {
-        margin-top: 14px;
-        margin-left: 0.05px;
-        height: 56px;
-        width: 56px;
-        background-color: #999aa2;
-        color: $white;
-        border-color: #666;
-        font-size: 25px;
+    margin-top: 14px;
+    height: 56px;
+    width: 56px;
+    background-color: #999aa2;
+    color: $white;
+    border-color: #666;
+    font-size: 25px;
     &:hover {
         filter: brightness(0.85)
     }
