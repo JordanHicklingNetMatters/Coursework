@@ -1,54 +1,147 @@
-.support-btn {
-	width: 150px;
-    height: 40px;
-    margin-left: 100px;
-    margin-top: 20px;
-    border-color: #4183d7;
-    background-color: #4183d7;
-    color: $white;
-    font-size: 15px;
-    letter-spacing: 2px;
-    &:hover {
-        filter: brightness(0.85)
-    }
-}
+// .support-btn {
+// 	width: 150px;
+//     height: 40px;
+//     margin-left: 100px;
+//     margin-top: 20px;
+//     border-color: #4183d7;
+//     background-color: #4183d7;
+//     color: $white;
+//     font-size: 15px;
+//     letter-spacing: 2px;
+//     &:hover {
+//         filter: brightness(0.85)
+//     }
+// }
 
-.contact-btn {
-	width: 100%;
-    height: 40px;
-    margin-left: 10px;
-    margin-top: 20px;
-    border-color:   #9b9d9e;
-    background-color: #9b9d9e;
-    color: $white;
-    font-size: 15px;
-    letter-spacing: 2px;
-    &:hover {
-        filter: brightness(0.85)
-    }
-  }
+// .contact-btn {
+// 	width: 100%;
+//     height: 40px;
+//     margin-left: 10px;
+//     margin-top: 20px;
+//     border-color:   #9b9d9e;
+//     background-color: #9b9d9e;
+//     color: $white;
+//     font-size: 15px;
+//     letter-spacing: 2px;
+//     &:hover {
+//         filter: brightness(0.85)
+//     }
+//   }
 
-  .search-btn {
-    float: right;
-    margin-top: 14px;
-    height: 56px;
-    width: 56px;
+  .search-btn { // The search button for the form. 
+    height: 75px;
+    width: 80px;
     background-color: #999aa2;
     color: $white;
     border-color: #666;
-    font-size: 25px;
+    font-size: 40px;
     &:hover {
         filter: brightness(0.85)
     }
 }
 
-.hamburger-btn {
-    height: 56px;
-    width: 70px;
-    margin-top: 14px;
-    margin-left: 1%;
-    font-size: 35px;
+.hamburger-btn { // The hamburger button for the header.
+    height: 100px;
+    width: 130px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    font-size: 70px;
     background-color: #333645;
     border-color: #333645;
     color: $white;
 }
+
+ // The read me buttons for the card area
+
+.app-read-more {
+    background-color: gray;
+    height: 80px;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: $white;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.monitor-read-more {
+    background-color: cyan;   
+    height: 80px;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: $white;
+    &:hover {
+        cursor: pointer;
+    } 
+}
+
+.bars-read-more {
+    background-color: lawngreen;
+    height: 80px;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: $white;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.phone-read-more {
+    background-color: red;
+    height: 80px;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: $white;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.code-read-more {
+    background-color: purple;
+    height: 80px;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: $white;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.shield-read-more {
+    background-color: pink;
+    height: 80px;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: $white;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.hat-read-more {
+    background-color: orange;
+    height: 80px;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: $white;
+    &:hover {
+        cursor: pointer;
+    }
+}
+

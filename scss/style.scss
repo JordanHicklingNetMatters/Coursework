@@ -4,7 +4,8 @@
         "../content/banner.scss",
         "../content/navigation.scss",
         "../utilities/_media.scss",
-        "../content/_header.scss";
+        "../content/_header.scss",
+        "../content/card.scss";
 
 
 html {
@@ -17,6 +18,7 @@ html {
 }
 
 body {
+    overflow-x: hidden; 
     font-family: Poppins, sans-serif;
     font-size: 1rem;
     letter-spacing: .4px;
@@ -27,6 +29,10 @@ body {
     padding: 0px;
 }
 
-
-
+#service {
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 110px;
+    color: rgb(70, 69, 69)
+}
 

@@ -1,23 +1,27 @@
 @import "../utilities/variables.scss";
 
 //banner CSS
-#banner img {
-    object-fit: cover;
-    height: 100%;
+#banner {
+    justify-content: center;
+}
+#banner .meeting {
+    height: 1500px;
+    filter: brightness(70%);
 }
 
 .h1 {
     position: absolute;
-    top: 44%;
+    top: 25%;
     left: 15%;
     color: $white;
-    font-size: 4rem;
+    font-size: 100px;
 }
 
 .content p {
     position: absolute;
-    top: 63%;
-    left: 15.5%;
+    text-align: center;
+    top: 60%;
     color: $white;
-    font-size: 25px;
+    font-size: 60px;
+    font-weight: bold;
 }
