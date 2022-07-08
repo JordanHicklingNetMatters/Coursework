@@ -1,0 +1,31 @@
+.news {
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    img{
+        width: 100%;
+    }
+    .news-text {
+        font-size: 80px;
+        color: #2c2738;
+    }
+    .news-content {
+        box-shadow: 0 0 3px rgb(0, 0, 0);
+        width: 100%;
+    }
+    .h4-news {
+        color: green;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    .description {
+        padding-left: 40px;
+        font-size: 15px;
+    }
+    .red-h4-news {
+        color: red;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+
+}

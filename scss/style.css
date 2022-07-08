@@ -157,6 +157,62 @@
   background-color: #1e1a26;
   color: #fff;
 }
+.about-read-more .about-btn em {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.google-btn {
+  height: 150px;
+  width: 70%;
+  border-radius: 15px;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #4387f6;
+}
+.google-btn em {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.trustpilot-btn {
+  padding-left: 20px;
+  margin-top: 45px;
+  height: 150px;
+  width: 80%;
+  border-radius: 15px;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #00b67b;
+}
+.trustpilot-btn em {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.news-read-more-btn {
+  margin-left: 40px;
+  margin-top: 20px;
+  height: 120px;
+  width: 35%;
+  border-radius: 10px;
+  font-size: 50px;
+  color: #fff;
+  background-color: #00b67b;
+}
+
+.red-news-read-more-btn {
+  margin-left: 40px;
+  margin-top: 20px;
+  height: 120px;
+  width: 35%;
+  border-radius: 10px;
+  font-size: 50px;
+  color: #fff;
+  background-color: red;
+}
 
 #banner {
   position: relative;
@@ -422,6 +478,50 @@
 .about-section .about-continued p {
   padding-top: 50px;
   line-height: 70px;
+}
+.about-section .stars {
+  color: goldenrod;
+  font-size: 70px;
+  padding-bottom: 20px;
+}
+.about-section .client-quote {
+  font-size: 45px;
+}
+.about-section .client-name {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: gray;
+}
+
+.news {
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.news img {
+  width: 100%;
+}
+.news .news-text {
+  font-size: 80px;
+  color: #2c2738;
+}
+.news .news-content {
+  box-shadow: 0 0 3px rgb(0, 0, 0);
+  width: 100%;
+}
+.news .h4-news {
+  color: green;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.news .description {
+  padding-left: 40px;
+  font-size: 15px;
+}
+.news .red-h4-news {
+  color: red;
+  padding-top: 30px;
+  padding-left: 40px;
 }
 
 html {

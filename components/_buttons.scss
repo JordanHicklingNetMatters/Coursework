@@ -157,5 +157,61 @@
         font-size: 50px;
         background-color: #1e1a26;
         color: $white;
+        em {
+            font-size: 70px;
+            font-weight: bold;
+        }
     }
 }
+
+ .google-btn {
+    height: 150px;
+    width: 70%;
+    border-radius: 15px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: $white;
+    background-color: #4387f6;
+    em {
+        font-size: 70px;
+        font-weight: bold;
+    }
+}
+
+.trustpilot-btn {
+    padding-left: 20px;
+    margin-top: 45px;
+    height: 150px;
+    width: 80%;
+    border-radius: 15px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: $white;
+    background-color: #00b67b;
+    em {
+        font-size: 70px;
+        font-weight: bold;
+    }
+ }
+
+ .news-read-more-btn {
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 120px;
+    width: 35%;
+    border-radius: 10px;
+    font-size: 50px;
+    color: $white;
+    background-color: #00b67b;
+ }
+
+ .red-news-read-more-btn {
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 120px;
+    width: 35%;
+    border-radius: 10px;
+    font-size: 50px;
+    color: $white;
+    background-color: red;
+ }
