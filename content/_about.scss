@@ -1,0 +1,37 @@
+// This is the CSS code for the about section (Review included.)'
+
+.about-section {
+    background-color: #2c2738;
+    padding-left: 30px;
+    color: $white;
+    padding-bottom: 60px;
+    font-family: Verdana;
+    padding-right: 20px;
+    .h2 {
+        font-size: 80px;
+        padding-top: 90px;
+    }
+    .beginning-about {
+        color: $white;
+        font-weight: bold;
+        font-size: 15px;
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+    p {
+        line-height: 70px;
+    }
+    a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    }
+    .about-continued {
+        gap: 300px;
+    }
+    .about-continued p {
+        padding-top: 50px;
+        line-height: 70px;
+    }
+}

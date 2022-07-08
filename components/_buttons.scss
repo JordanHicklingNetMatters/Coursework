@@ -145,3 +145,17 @@
     }
 }
 
+// The about us read more button
+
+.about-read-more {
+    padding: 20px;
+    .about-btn {
+        height: 120px;
+        width: 50%;
+        border-radius: 10px;
+        border-color: #1e1a26;
+        font-size: 50px;
+        background-color: #1e1a26;
+        color: $white;
+    }
+}
