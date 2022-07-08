@@ -2,6 +2,7 @@
     padding-top: 80px;
     padding-left: 30px;
     padding-right: 30px;
+    height: auto;
     img{
         width: 100%;
     }
@@ -27,5 +28,15 @@
         padding-top: 30px;
         padding-left: 40px;
     }
+}
 
+.view-all-section {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-size: 60px;
+    text-align: center;
+    .view-link {
+        text-decoration: none;
+        color: #333645;
+    }
 }
