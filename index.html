@@ -13,8 +13,8 @@
                     <img class="main-logo" src="img/Netmatters.png" alt="Netmatters Logo">
                     <span class="contact fa-solid fa-phone" ></span>
                     <button class="hamburger-btn fa-solid fa-bars" type="button"></button>
-                    <!-- <a href="#"><button class="support-btn fa-solid fa-computer-mouse" type="button"> Support</button></a>
-                    <a href="#"><button class="contact-btn fa-solid fa-paper-plane" type="button"> Contact</button></a> These are not shown in the mobile version so I will disable them for now however have a media query ready -->
+                    <a href="#"><button class="support-btn fa-solid fa-computer-mouse" type="button"> Support</button></a>
+                    <a href="#"><button class="contact-btn fa-solid fa-paper-plane" type="button"> Contact</button></a> <!-- These are not shown in the mobile version so I will disable them for now however have a media query ready -->
                     <form>
                     </div>
                     <input class="form-control search-bar" placeholder=" Search..." id="search-input" name="keyword" type="text" value="">
@@ -149,11 +149,13 @@
                 </div>
             </section>
 <!-- The end of the card navigation section. -->
-
             
         <!-- Underneath Our Services Menu there are sponserships this will be here:-->
-        <div class="sponsers"> 
-            <p>This is where the sponser scroll will go.</p>
+        <div class="row">
+            <div class="sponsers"> 
+                <img src="img/ppc.jpg" alt="Prompt Payment Code">
+                <p>This is the sponser section.</p>
+            </div>
         </div>
         <!-- The end of the sponser scroll -->
 
@@ -237,6 +239,17 @@
                                 </form>
                             </div>
                         </div>
+                        <!-- Start of the chat feature -->
+                        <button class="open-button" onclick="openForm()"><span class="fa-solid fa-comment-dots"></span></button>
+                        <div class="chat" id="chatform">
+                            <form action="#" class="form-container">
+                                <h1>Live Chat & Talk</h1>
+
+                                <label for="msg">Could we have your name, please?</label>
+                                <input type="text" id="msg" name="msg" placeholder="Name">
+
+                                <button type="submit" class="chat-btn">Chat</button>
+                            </form>
                         <footer>
                             <div class="footer-container">
                                 <div class="footer-about">

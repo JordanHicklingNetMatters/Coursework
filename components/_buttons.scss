@@ -1,32 +1,32 @@
-// .support-btn {
-// 	width: 150px;
-//     height: 40px;
-//     margin-left: 100px;
-//     margin-top: 20px;
-//     border-color: #4183d7;
-//     background-color: #4183d7;
-//     color: $white;
-//     font-size: 15px;
-//     letter-spacing: 2px;
-//     &:hover {
-//         filter: brightness(0.85)
-//     }
-// }
+.support-btn {
+	width: 150px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-color: #4183d7;
+    background-color: #4183d7;
+    color: $white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    &:hover {
+        filter: brightness(0.85)
+    }
+}
 
-// .contact-btn {
-// 	width: 100%;
-//     height: 40px;
-//     margin-left: 10px;
-//     margin-top: 20px;
-//     border-color:   #9b9d9e;
-//     background-color: #9b9d9e;
-//     color: $white;
-//     font-size: 15px;
-//     letter-spacing: 2px;
-//     &:hover {
-//         filter: brightness(0.85)
-//     }
-//   }
+.contact-btn {
+	width: 100%;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-color:   #9b9d9e;
+    background-color: #9b9d9e;
+    color: $white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    &:hover {
+        filter: brightness(0.85)
+    }
+  }
 
   .search-btn { // The search button for the form. 
     height: 75px;
@@ -228,3 +228,28 @@
     color: $white;
     background-color: #333645;
 }
+
+.form-container .chat-btn {
+    background-color: #04AA6D;
+    color: $white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.open-button {
+    background-color: #333645;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 150px;
+    height: 150px;
+    font-size: 75px;
+    border-radius: 75px;
+  }
