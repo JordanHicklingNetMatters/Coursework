@@ -216,6 +216,17 @@
   background-color: red;
 }
 
+.sub-btn {
+  width: 30%;
+  height: 120px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  font-size: 40px;
+  color: #fff;
+  background-color: #333645;
+}
+
 #banner {
   position: relative;
   width: 100%;
@@ -578,6 +589,84 @@
 .newsletter .accept-information {
   font-size: 50px;
   color: black;
+}
+
+.footer-container {
+  background-color: #333645;
+  margin-left: 50px;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 50px;
+  margin-left: 120px;
+  font-family: Verdana;
+}
+.footer-container h4 {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  margin-left: 47px;
+  font-weight: normal;
+}
+.footer-container a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-container a:hover {
+  cursor: pointer;
+}
+.footer-container ul {
+  list-style-type: none;
+}
+.footer-container li {
+  line-height: 70px;
+  left: auto;
+  font-size: 13px;
+}
+
+.bottom {
+  color: #fff;
+  padding-bottom: 40px;
+}
+.bottom .licence {
+  display: flex;
+  font-size: 40px;
+  margin-left: 30px;
+}
+.bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+.bottom a:hover {
+  cursor: pointer;
+}
+.bottom ul {
+  list-style-type: none;
+  margin-top: -2px;
+}
+.bottom span {
+  margin-left: 30px;
+}
+.bottom .social {
+  float: right;
+  top: 0px;
+  right: 0px;
+  margin-left: 30px;
+}
+.bottom .facebook {
+  height: 60px;
+  margin-left: 20px;
+}
+.bottom .twitter {
+  height: 60px;
+  margin-left: 20px;
+}
+.bottom .instagram {
+  height: 60px;
+  margin-left: 20px;
+}
+.bottom .linkedin {
+  height: 60px;
   margin-left: 20px;
 }
 
@@ -607,4 +696,8 @@ body {
   margin-left: 30px;
   font-size: 110px;
   color: rgb(70, 69, 69);
+}
+
+footer {
+  background-color: #333645;
 }/*# sourceMappingURL=style.css.map */

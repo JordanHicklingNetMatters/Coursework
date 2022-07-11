@@ -8,7 +8,8 @@
         "../content/card.scss",
         "../content/about.scss",
         "../content/news.scss",
-        "../content/newsletter.scss";
+        "../content/newsletter.scss",
+        "../content/footer.scss";
 
 
 html {
@@ -39,3 +40,6 @@ body {
     color: rgb(70, 69, 69)
 }
 
+footer {
+    background-color: #333645;
+}
