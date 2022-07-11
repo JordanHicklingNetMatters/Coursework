@@ -388,6 +388,11 @@
     height: 100%;
   }
 }
+@media (max-width: 1280px) {
+  .container {
+    width: 100%;
+  }
+}
 .header {
   position: fixed;
   top: 0;
@@ -591,15 +596,17 @@
   color: green;
   padding-top: 30px;
   padding-left: 40px;
+  font-size: 30px;
 }
 .news .description {
   padding-left: 40px;
-  font-size: 15px;
+  font-size: 20px;
 }
 .news .red-h4-news {
   color: red;
   padding-top: 30px;
   padding-left: 40px;
+  font-size: 30px;
 }
 
 .view-all-section {
