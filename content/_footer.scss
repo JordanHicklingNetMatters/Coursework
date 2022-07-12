@@ -8,11 +8,12 @@
     margin-left: 120px;
     font-family: Verdana;
     h4 {
-        padding-bottom: 50px;
-        padding-top: 50px;
+        padding-bottom: 10px;
+        padding-top: 10px;
         text-transform: uppercase;
-        margin-left: 47px;
+        margin-left: 40px;
         font-weight: normal;
+        font-size: 2.5vw;
     }
     a {
         text-decoration: none;
@@ -25,9 +26,9 @@
         list-style-type: none;
     }
     li {
-        line-height: 70px;
+        line-height: 22px;
         left: auto;
-        font-size: 13px;
+        font-size: 2vw;
     }
 }
 
@@ -36,7 +37,7 @@
     padding-bottom: 40px;
     .licence {
         display: flex;
-        font-size: 40px;
+        font-size: 20px;
         margin-left: 30px;
     }
     a {

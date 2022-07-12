@@ -8,7 +8,7 @@
     font-family: Verdana;
     padding-right: 20px;
     .h2 {
-        font-size: 80px;
+        font-size: $h2-font-size;
         padding-top: 90px;
     }
     .beginning-about {
@@ -20,7 +20,7 @@
         color: $white;
     }
     p {
-        line-height: 70px;
+        line-height: 22px;
     }
     a:hover {
         cursor: pointer;
@@ -31,8 +31,8 @@
         gap: 300px;
     }
     .about-continued p {
-        padding-top: 50px;
-        line-height: 70px;
+        padding-top: 30px;
+        line-height: 22px;
     }
     .stars {
         color: goldenrod;

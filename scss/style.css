@@ -276,10 +276,10 @@
   position: fixed;
   bottom: 23px;
   right: 28px;
-  width: 150px;
-  height: 150px;
-  font-size: 75px;
-  border-radius: 75px;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  border-radius: 30px;
 }
 
 #banner {
@@ -320,6 +320,7 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 1.125rem;
+  justify-content: center;
 }
 .main-nav span {
   padding: 5px;
@@ -365,11 +366,9 @@
   .main-nav {
     display: none;
   }
-
   .support-btn {
     display: none;
   }
-
   .contact-btn {
     display: none;
   }
@@ -378,7 +377,6 @@
   .contact-btn {
     display: none;
   }
-
   .support-btn {
     display: none;
   }
@@ -393,6 +391,17 @@
     width: 100%;
   }
 }
+@media (max-width: 768px) {
+  .main-logo {
+    height: 9vh;
+    width: 50%;
+  }
+  .hamburger-btn {
+    height: 75px;
+    width: 75px;
+    font-size: 30px;
+  }
+}
 .header {
   position: fixed;
   top: 0;
@@ -401,19 +410,18 @@
 .container {
   display: flex;
   margin-top: 10px;
-  height: 200px;
+  height: 15vh;
 }
 
 .main-logo {
-  float: left;
+  display: block;
   padding: 20px;
   text-align: center;
-  width: 70%;
-  height: 70%;
+  max-width: 100%;
 }
 
 .contact {
-  font-size: 50px;
+  font-size: 30px;
   margin-top: 60px;
   margin-left: 10px;
 }
@@ -453,7 +461,7 @@
 
 .card-content {
   line-height: 1.5;
-  font-size: 0.9em;
+  font-size: 20px;
   padding: 15px;
   text-align: center;
 }
@@ -535,7 +543,7 @@
   padding-right: 20px;
 }
 .about-section .h2 {
-  font-size: 80px;
+  font-size: 5vw;
   padding-top: 90px;
 }
 .about-section .beginning-about {
@@ -548,7 +556,7 @@
   color: #fff;
 }
 .about-section .beginning-about p {
-  line-height: 70px;
+  line-height: 22px;
 }
 .about-section .beginning-about a:hover {
   cursor: pointer;
@@ -558,8 +566,8 @@
   gap: 300px;
 }
 .about-section .about-continued p {
-  padding-top: 50px;
-  line-height: 70px;
+  padding-top: 30px;
+  line-height: 22px;
 }
 .about-section .stars {
   color: goldenrod;
@@ -673,11 +681,12 @@
   font-family: Verdana;
 }
 .footer-container h4 {
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   text-transform: uppercase;
-  margin-left: 47px;
+  margin-left: 40px;
   font-weight: normal;
+  font-size: 2.5vw;
 }
 .footer-container a {
   text-decoration: none;
@@ -690,9 +699,9 @@
   list-style-type: none;
 }
 .footer-container li {
-  line-height: 70px;
+  line-height: 22px;
   left: auto;
-  font-size: 13px;
+  font-size: 2vw;
 }
 
 .bottom {
@@ -701,7 +710,7 @@
 }
 .bottom .licence {
   display: flex;
-  font-size: 40px;
+  font-size: 20px;
   margin-left: 30px;
 }
 .bottom a {

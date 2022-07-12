@@ -36,3 +36,18 @@
         width: 100%;
     }
 }
+
+@media (max-width: 768px) {
+    .main-logo {
+        height: 9vh;
+        width: 50%;
+    }
+    .contact {
+        
+    }
+    .hamburger-btn {
+        height: 75px;
+        width: 75px;
+        font-size: 30px;
+    }
+}
