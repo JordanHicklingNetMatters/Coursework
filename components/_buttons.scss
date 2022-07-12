@@ -56,11 +56,10 @@
 
 .app-read-more {
     background-color: gray;
-    height: 80px;
-    padding: 10px;
-    font-size: 50px;
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
     border-radius: 5px;
-    margin-top: 50px;
     color: $white;
     &:hover {
         cursor: pointer;
@@ -69,12 +68,12 @@
 
 .monitor-read-more {
     background-color: cyan;   
-    height: 80px;
-    padding: 10px;
-    font-size: 50px;
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
     border-radius: 5px;
-    margin-top: 50px;
     color: $white;
+    text-align: center;
     &:hover {
         cursor: pointer;
     } 
@@ -82,11 +81,10 @@
 
 .bars-read-more {
     background-color: lawngreen;
-    height: 80px;
-    padding: 10px;
-    font-size: 50px;
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
     border-radius: 5px;
-    margin-top: 50px;
     color: $white;
     &:hover {
         cursor: pointer;
@@ -95,11 +93,10 @@
 
 .phone-read-more {
     background-color: red;
-    height: 80px;
-    padding: 10px;
-    font-size: 50px;
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
     border-radius: 5px;
-    margin-top: 50px;
     color: $white;
     &:hover {
         cursor: pointer;
@@ -108,11 +105,10 @@
 
 .code-read-more {
     background-color: purple;
-    height: 80px;
-    padding: 10px;
-    font-size: 50px;
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
     border-radius: 5px;
-    margin-top: 50px;
     color: $white;
     &:hover {
         cursor: pointer;
@@ -121,11 +117,10 @@
 
 .shield-read-more {
     background-color: pink;
-    height: 80px;
-    padding: 10px;
-    font-size: 50px;
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
     border-radius: 5px;
-    margin-top: 50px;
     color: $white;
     &:hover {
         cursor: pointer;
@@ -134,11 +129,10 @@
 
 .hat-read-more {
     background-color: orange;
-    height: 80px;
-    padding: 10px;
-    font-size: 50px;
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
     border-radius: 5px;
-    margin-top: 50px;
     color: $white;
     &:hover {
         cursor: pointer;
@@ -148,74 +142,85 @@
 // The about us read more button
 
 .about-read-more {
-    padding: 20px;
     .about-btn {
-        height: 120px;
-        width: 50%;
+        height: 60px;
+        width: 30%;
         border-radius: 10px;
         border-color: #1e1a26;
-        font-size: 50px;
+        font-size: 25px;
         background-color: #1e1a26;
         color: $white;
         em {
-            font-size: 70px;
+            font-size: 20px;
             font-weight: bold;
         }
     }
 }
 
  .google-btn {
-    height: 150px;
-    width: 70%;
-    border-radius: 15px;
-    font-size: 50px;
+    height: 6vh;
+    width: 40%;
+    border-radius: 10px;
+    font-size: 20px;
     text-transform: uppercase;
     color: $white;
     background-color: #4387f6;
     em {
-        font-size: 70px;
+        font-size: 20px;
         font-weight: bold;
     }
 }
 
+.google-btn:hover {
+    cursor: pointer;
+}
+
 .trustpilot-btn {
-    padding-left: 20px;
-    margin-top: 45px;
-    height: 150px;
-    width: 80%;
-    border-radius: 15px;
-    font-size: 50px;
+    height: 6vh;
+    width: 40%;
+    border-radius: 10px;
+    font-size: 20px;
     text-transform: uppercase;
     color: $white;
     background-color: #00b67b;
     em {
-        font-size: 70px;
+        font-size: 20px;
         font-weight: bold;
     }
  }
 
+ .trustpilot-btn:hover {
+    cursor: pointer;
+ }
+
  .news-read-more-btn {
     margin-left: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    height: 120px;
-    width: 35%;
-    border-radius: 10px;
-    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 20%;
+    border-radius: 5px;
+    font-size: 25px;
     color: $white;
     background-color: #00b67b;
+    &:hover {
+        cursor: pointer;
+    }
  }
 
  .red-news-read-more-btn {
     margin-left: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    height: 120px;
-    width: 35%;
-    border-radius: 10px;
-    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 20%;
+    border-radius: 5px;
+    font-size: 25px;
     color: $white;
     background-color: red;
+    &:hover {
+        cursor: pointer;
+    }
  }
 
  .sub-btn {

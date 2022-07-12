@@ -1,14 +1,12 @@
 .news {
-    padding-top: 80px;
-    padding-left: 30px;
+    padding-top: 10px;
     padding-right: 30px;
     height: auto;
     img{
         width: 100%;
     }
     .news-text {
-        font-size: 80px;
-        color: #2c2738;
+        font-size: 2.7rem;
     }
     .news-content {
         box-shadow: 0 0 3px rgb(0, 0, 0);
@@ -16,27 +14,27 @@
     }
     .h4-news {
         color: green;
-        padding-top: 30px;
-        padding-left: 40px;
-        font-size: 30px;
+        padding-top: 10px;
+        padding-left: 35px;
+        font-size: 20px;
     }
     .description {
         padding-left: 40px;
-        font-size: 20px;
+        font-size: 15px;
     }
     .red-h4-news {
         color: red;
         padding-top: 30px;
         padding-left: 40px;
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
 .view-all-section {
-    margin-top: 100px;
-    margin-bottom: 60px;
-    font-size: 60px;
+    margin-top: 40px;
+    font-size: 30px;
     text-align: center;
+    font-weight: bold;
     .view-link {
         text-decoration: none;
         color: #333645;

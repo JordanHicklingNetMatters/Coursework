@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/fc2f3a0d11.js" crossorigin="anonymous"></script>
     <link rel="stylesheet"  href="scss/style.css">
     <head>
@@ -10,16 +11,18 @@
         <div class="header"></div>
              <header>    
                 <div class="container"> <!-- Start of the header navigation -->
+                    <div class="header-content">
                         <img class="main-logo" src="img/Netmatters.png" alt="Netmatters Logo">
                         <span class="contact fa-solid fa-phone" ></span>
                         <button class="hamburger-btn fa-solid fa-bars" type="button"></button>
+                    </div>
                         <a href="#"><button class="support-btn fa-solid fa-computer-mouse" type="button"> Support</button></a>
-                        <a href="#"><button class="contact-btn fa-solid fa-paper-plane" type="button"> Contact</button></a> <!-- These are not shown in the mobile version so I will disable them for now however have a media query ready -->
+                        <a href="#"><button class="contact-btn fa-solid fa-paper-plane" type="button"> Contact</button></a> <!-- These are not shown in the mobile version so I will disable them for now however have a media query ready -->  
                         <form>
-                        </div>
                         <input class="form-control search-bar" placeholder=" Search..." id="search-input" name="keyword" type="text" value="">
-                        <button class="search-btn fa-solid fa-magnifying-glass" type="submit"></button>
-                    </form>
+                        <!-- <button class="search-btn fa-solid fa-magnifying-glass" type="submit"></button> -->
+                        </form>
+                    </div>
                 </div>
                  <!-- End of the header navigation -->
             </div>
@@ -53,20 +56,20 @@
                         <img class="meeting" src="img/metting.jpg" alt="A picture of people in a meeting">
                         <h1 class="h1">The East Of England's Leading<br> Technology Company</h1> 
                         <p class="p1">Performance-driven digital and technology services<br> with complete transparency.</p>
-                        </div>
                     </div>
                 </div>
             </div>
         
             <!-- Start of the card section aka the navigation on the mobile -->
-            <section class="first-section">
+            <div class="container">
+                <section class="first-section">
                 <h2 id="service"><strong>Our Services</strong></h2>
 
                 <div class="cards">
                     <div class="card">
                         <span class="card-app fa-brands fa-uncharted"></span>
                         <div class="card-content">
-                            <h1>Bespoke Software</h1>
+                            <h2>Bespoke Software</h2>
                             <p> Tailored software solutions to improve business productivity and online profits. </p>
                         </div>
                         <div class="card-info">
@@ -78,7 +81,7 @@
                     <div class="card">
                         </span><span class="card-monitor fa-solid fa-desktop"></span>
                         <div class="card-content">
-                            <h1>IT Support</h1>
+                            <h2>IT Support</h2>
                             <p> Remotely Managed IT services that is catered to your businesses needs, adds value & reduces costs </p>
                         </div>
                         <div class="card-info">
@@ -90,7 +93,7 @@
                     <div class="card">
                         <span class="card-bars fa-solid fa-chart-simple"></span>
                         <div class="card-content">
-                            <h1>Digital Marketing</h1>
+                            <h2>Digital Marketing</h2>
                             <p> Driven brand awareness & ROI through creative digital marketing campaigns </p>
                         </div>
                         <div class="card-info">
@@ -102,7 +105,7 @@
                     <div class="card">
                         <span class="card-phone fa-solid fa-phone"></span>
                         <div class="card-content">
-                            <h1>Telecoms Services</h1>
+                            <h2>Telecoms Services</h2>
                             <p> Stay Connected with bespoke telecoms soulutions when you need it most. </p>
                         </div>
                         <div class="card-info">
@@ -114,7 +117,7 @@
                     <div class="card">
                         <span class="card-code fa-solid fa-code"></span>
                         <div class="card-content">
-                            <h1>Web Design</h1>
+                            <h2>Web Design</h2>
                             <p> User-centric design for businesses looking to make a lasting impression. </p>
                         </div>
                         <div class="card-info">
@@ -126,7 +129,7 @@
                     <div class="card">
                         <span class="card-shield fa-solid fa-shield"></span>
                         <div class="card-content">
-                            <h1>Cyber Security</h1>
+                            <h2>Cyber Security</h2>
                             <p> Ensuring your online business stays secure 24/7 365 days of the year. </p>
                         </div>
                         <div class="card-info">
@@ -138,7 +141,7 @@
                     <div class="card">
                         <span class="card-hat fa-solid fa-graduation-cap"></span>
                         <div class="card-content">
-                            <h1>Developer Training</h1>
+                            <h2>Developer Training</h2>
                             <p> Have you considered a career in web development but you aren't sure where to </p>
                         </div>
                         <div class="card-info">
@@ -148,14 +151,17 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </section>
 <!-- The end of the card navigation section. -->
             
         <!-- Underneath Our Services Menu there are sponserships this will be here:-->
-        <div class="row">
-            <div class="sponsers"> 
-                <img src="img/ppc.jpg" alt="Prompt Payment Code">
-                <p>This is the sponser section.</p>
+        <div class="container">
+            <div class="row">
+                <div class="sponsers"> 
+                    <img src="img/ppc.jpg" alt="Prompt Payment Code">
+                    <p>This is the sponser section.</p>
+                </div>
             </div>
         </div>
         <!-- The end of the sponser scroll -->
@@ -163,64 +169,68 @@
         <!-- Welcome to Netmatters information section-->
         <section>
             <div class="about-section">
-                <div class="beginning-about">
-                    <h2 class="h2">Welcome To Netmatters</h2>
-                    <p>Netmatters is a leading <a href="#">Bespoke Software</a>, <a href="#">IT Support</a>, and <a href="#">Digital Marketing</a> company based in the East of England with offices in <a href="#">Cambridge</a>, <a href="#">Wymondham</a>, and <a href="#">Great Yarmouth</a>.</p>
-                </div>
-                <div class="about-continued">
-                    <p>We aren't tied into contracts with third-party providers, so you know that our recommendations for your business are based purely with one benefit in mind: 
-                    to help improve your business with the most appropriate solutions.</p>
-                    <p>We pride ourselves on being an ethical business and have a unique business offering and cost model that ensures you get the most from our relationship in an upfront manner.</p>
-                </div>
-                <div class="about-read-more">
-                    <a href="#"><button class="about-btn" type="button">Read More <em>&rarr;</em></button></a>
-                </div>
-
-                    <!-- Beside the Welcome to Netmatters is the Review section -->
-                    <h2 class="h2">What Our Clients Think</h2>
-                    <div class="stars">
-                        <span class="fa-solid fa-star"></span>
-                        <span class="fa-solid fa-star"></span>
-                        <span class="fa-solid fa-star"></span>
-                        <span class="fa-solid fa-star"></span>
-                        <span class="fa-solid fa-star"></span>
+                <div class="container">
+                    <div class="beginning-about">
+                        <h2 class="h2">Welcome To Netmatters</h2>
+                        <p>Netmatters is a leading <a href="#">Bespoke Software</a>, <a href="#">IT Support</a>, and <a href="#">Digital Marketing</a> company based in the East of England with offices in <a href="#">Cambridge</a>, <a href="#">Wymondham</a>, and <a href="#">Great Yarmouth</a>.</p>
                     </div>
-                    <p class="client-quote"><i>Great service. Took the reigns and did all the leg work for us. Ensured we were happy with our website and made all changes necessary as and when asked to do so.</i></p>
-                    <p class="client-name">Oliver King - SEA Scaffolding</p>
-                    <!-- A couple of buttons below saying Google Reviews and one with Trustpilot Reviews -->
-                    <div class="review-btns">
-                        <a href="#"><button class="google-btn" type="button">Google Reviews <em>&rarr;</em></button></a>
-                        <a href="#"><button class="trustpilot-btn" type="button">Trustpilot Reviews <em>&rarr;</em></button></a>
+                    <div class="about-continued">
+                        <p>We aren't tied into contracts with third-party providers, so you know that our recommendations for your business are based purely with one benefit in mind: 
+                        to help improve your business with the most appropriate solutions.</p>
+                        <p>We pride ourselves on being an ethical business and have a unique business offering and cost model that ensures you get the most from our relationship in an upfront manner.</p>
+                    </div>
+                    <div class="about-read-more">
+                        <a href="#"><button class="about-btn" type="button">Read More <em>&rarr;</em></button></a>
+                    </div>
+
+                        <!-- Beside the Welcome to Netmatters is the Review section -->
+                        <h2 class="h2">What Our Clients Think</h2>
+                        <div class="stars">
+                            <span class="fa-solid fa-star"></span>
+                            <span class="fa-solid fa-star"></span>
+                            <span class="fa-solid fa-star"></span>
+                            <span class="fa-solid fa-star"></span>
+                            <span class="fa-solid fa-star"></span>
+                        </div>
+                        <p class="client-quote"><i>Great service. Took the reigns and did all the leg work for us. Ensured we were happy with our website and made all changes necessary as and when asked to do so.</i></p>
+                        <p class="client-name">Oliver King - SEA Scaffolding</p>
+                        <!-- A couple of buttons below saying Google Reviews and one with Trustpilot Reviews -->
+                        <div class="review-btns">
+                            <a href="#"><button class="google-btn" type="button">Google Reviews <em>&rarr;</em></button></a>
+                            <a href="#"><button class="trustpilot-btn" type="button">Trustpilot Reviews <em>&rarr;</em></button></a>
+                        </div>
                     </div>
                 </div>
             </section> <!-- THis is the end of the review section -->
 
-            <div class="news"> <!-- Latest News section of the webpage -->
-                <h2 class="news-text">Latest News</h2>
-                <div class="news-content">
-                    <img src="img/junior-digital-marketing.jpg" alt="A picture advertising a job for junior digital marketing executive.">
-                    <h4 class="h4-news">Junior Digital Marketing Executive</h4>
-                    <p class="description">Salary Range $18,000 - £23,000 Hours 40 hours per week, Mon-Fri Location Wymondham, Norfolk. Great...</p>
-                    <a href="#"><button class="news-read-more-btn" type="button">Read More</button></a>
-                </div>
-                <div class="news"> <!-- Second Artical -->
+            <div class="container">
+                <div class="news"> <!-- Latest News section of the webpage -->
+                    <h2 class="news-text">Latest News</h2>
                     <div class="news-content">
-                        <img src="img/SEO.jpg" alt="Text stating What you dont know about seo">
-                                <h4 class="h4-news">What You Don't Know About SEO</h4>
-                                <p class="description">Technology. Competitors. Search Engine Algorithms. These factors are all inevitably goint to be ever...</p>
-                                <a href="#"><button class="news-read-more-btn" type="button">Read More</button></a>
-                        </div>
+                        <img src="img/junior-digital-marketing.jpg" alt="A picture advertising a job for junior digital marketing executive.">
+                        <h4 class="h4-news">Junior Digital Marketing Executive</h4>
+                        <p class="description">Salary Range $18,000 - £23,000 Hours 40 hours per week, Mon-Fri Location Wymondham, Norfolk. Great...</p>
+                        <a href="#"><button class="news-read-more-btn" type="button">Read More</button></a>
                     </div>
-                    <div class="news"> <!-- Third Article -->
+                    <div class="news"> <!-- Second Artical -->
                         <div class="news-content">
-                            <img src="img/new-business-executive.jpg" alt="A picture with a phone advertising jobs for new business exectuives">
-                                    <h4 class="red-h4-news">New Business Executive</h4>
-                                    <p class="description">Salary Range £22,000 & OTE Hours 40 hours per week, Monday - Friday Location Wymondham, Norfolk/Part...</p>
-                                    <a href="#"><button class="red-news-read-more-btn" type="button">Read More</button></a>
+                            <img src="img/SEO.jpg" alt="Text stating What you dont know about seo">
+                                    <h4 class="h4-news">What You Don't Know About SEO</h4>
+                                    <p class="description">Technology. Competitors. Search Engine Algorithms. These factors are all inevitably goint to be ever...</p>
+                                    <a href="#"><button class="news-read-more-btn" type="button">Read More</button></a>
                             </div>
                         </div>
-                        <div class="view-all-section">
-                        <a class="view-link" href="#">View All <em>&rarr;</em></a>
+                        <div class="news"> <!-- Third Article -->
+                            <div class="news-content">
+                                <img src="img/new-business-executive.jpg" alt="A picture with a phone advertising jobs for new business exectuives">
+                                        <h4 class="red-h4-news">New Business Executive</h4>
+                                        <p class="description">Salary Range £22,000 & OTE Hours 40 hours per week, Monday - Friday Location Wymondham, Norfolk/Part...</p>
+                                        <a href="#"><button class="red-news-read-more-btn" type="button">Read More</button></a>
+                                </div>
+                            </div>
+                            <div class="view-all-section">
+                            <a class="view-link" href="#">View All <em>&rarr;</em></a>
+                        </div>
                     </div>
                 </div>
 
