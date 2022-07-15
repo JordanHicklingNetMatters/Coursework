@@ -5,13 +5,17 @@
     gap: 40px;
     font-family: sans-serif;
     text-align: center;
+    a {
+        text-decoration: none;
+        color: grey;
+    }
 }
 
 .card {
     box-shadow: 0 0 3px rgb(0, 0, 0);
     padding: 10px;
     border-radius: 15px;
-    height: 25vh;
+    height: 30vh;
 }
 
 .card-image {

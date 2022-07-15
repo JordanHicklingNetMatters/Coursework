@@ -90,10 +90,11 @@
 .app-read-more {
   background-color: gray;
   height: 50px;
-  width: 130px;
-  font-size: 20px;
+  width: 100%;
+  font-size: 15px;
   border-radius: 5px;
   color: #fff;
+  text-transform: uppercase;
 }
 .app-read-more:hover {
   cursor: pointer;
@@ -102,11 +103,12 @@
 .monitor-read-more {
   background-color: cyan;
   height: 50px;
-  width: 130px;
-  font-size: 20px;
+  width: 100%;
+  font-size: 15px;
   border-radius: 5px;
   color: #fff;
   text-align: center;
+  text-transform: uppercase;
 }
 .monitor-read-more:hover {
   cursor: pointer;
@@ -115,10 +117,11 @@
 .bars-read-more {
   background-color: lawngreen;
   height: 50px;
-  width: 130px;
-  font-size: 20px;
+  width: 100%;
+  font-size: 15px;
   border-radius: 5px;
   color: #fff;
+  text-transform: uppercase;
 }
 .bars-read-more:hover {
   cursor: pointer;
@@ -127,10 +130,11 @@
 .phone-read-more {
   background-color: red;
   height: 50px;
-  width: 130px;
-  font-size: 20px;
+  width: 100%;
+  font-size: 15px;
   border-radius: 5px;
   color: #fff;
+  text-transform: uppercase;
 }
 .phone-read-more:hover {
   cursor: pointer;
@@ -139,10 +143,11 @@
 .code-read-more {
   background-color: purple;
   height: 50px;
-  width: 130px;
-  font-size: 20px;
+  width: 100%;
+  font-size: 15px;
   border-radius: 5px;
   color: #fff;
+  text-transform: uppercase;
 }
 .code-read-more:hover {
   cursor: pointer;
@@ -151,10 +156,11 @@
 .shield-read-more {
   background-color: pink;
   height: 50px;
-  width: 130px;
-  font-size: 20px;
+  width: 100%;
+  font-size: 15px;
   border-radius: 5px;
   color: #fff;
+  text-transform: uppercase;
 }
 .shield-read-more:hover {
   cursor: pointer;
@@ -163,10 +169,11 @@
 .hat-read-more {
   background-color: orange;
   height: 50px;
-  width: 130px;
-  font-size: 20px;
+  width: 100%;
+  font-size: 15px;
   border-radius: 5px;
   color: #fff;
+  text-transform: uppercase;
 }
 .hat-read-more:hover {
   cursor: pointer;
@@ -174,13 +181,14 @@
 
 .about-read-more .about-btn {
   height: 60px;
-  width: 25%;
+  width: 30%;
   border-radius: 10px;
   border-color: #1e1a26;
   font-size: 16px;
   background-color: #1e1a26;
   color: #fff;
   text-transform: uppercase;
+  border: none;
 }
 .about-read-more .about-btn em {
   font-size: 20px;
@@ -189,12 +197,14 @@
 
 .google-btn {
   height: 6vh;
-  width: 40%;
+  width: 50vw;
   border-radius: 10px;
   font-size: 16px;
   text-transform: uppercase;
   color: #fff;
   background-color: #4387f6;
+  margin-right: 15px;
+  border: none;
 }
 .google-btn em {
   font-size: 14px;
@@ -207,12 +217,14 @@
 
 .trustpilot-btn {
   height: 6vh;
-  width: 40%;
+  width: 60vw;
   border-radius: 10px;
   font-size: 16px;
   text-transform: uppercase;
   color: #fff;
   background-color: #00b67b;
+  margin-top: 10px;
+  border: none;
 }
 .trustpilot-btn em {
   font-size: 14px;
@@ -228,11 +240,12 @@
   margin-top: 20px;
   margin-bottom: 10px;
   height: 50px;
-  width: 20%;
+  width: 30%;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 15px;
   color: #fff;
   background-color: #00b67b;
+  text-transform: uppercase;
 }
 .news-read-more-btn:hover {
   cursor: pointer;
@@ -243,18 +256,19 @@
   margin-top: 20px;
   margin-bottom: 10px;
   height: 50px;
-  width: 20%;
+  width: 30%;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 15px;
   color: #fff;
   background-color: red;
+  text-transform: uppercase;
 }
 .red-news-read-more-btn:hover {
   cursor: pointer;
 }
 
 .sub-btn {
-  width: 15%;
+  width: 25%;
   height: 50px;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -262,6 +276,9 @@
   font-size: 15px;
   color: #fff;
   background-color: #333645;
+}
+.sub-btn:hover {
+  cursor: pointer;
 }
 
 .form-container .chat-btn {
@@ -318,7 +335,7 @@
   line-height: 1.75rem;
   font-weight: 600;
   position: absolute;
-  top: 55%;
+  top: 60%;
   left: 10%;
 }
 
@@ -401,7 +418,7 @@
 }
 @media (max-width: 767px) {
   .main-logo {
-    height: 9vh;
+    height: 13vh;
     width: 50%;
   }
   .hamburger-btn {
@@ -415,7 +432,7 @@
 }
 @media (min-width: 768px) {
   .main-logo {
-    height: 9vh;
+    height: 13vh;
     width: 40%;
   }
   .contact {
@@ -463,8 +480,13 @@
   .hidden-card {
     display: none;
   }
-  .view-link {
-    float: right;
+}
+@media (min-width: 600px) {
+  .trustpilot-btn {
+    width: 50%;
+  }
+  .google-btn {
+    width: 40%;
   }
 }
 .header {
@@ -511,12 +533,16 @@
   font-family: sans-serif;
   text-align: center;
 }
+.cards a {
+  text-decoration: none;
+  color: grey;
+}
 
 .card {
   box-shadow: 0 0 3px rgb(0, 0, 0);
   padding: 10px;
   border-radius: 15px;
-  height: 25vh;
+  height: 30vh;
 }
 
 .card-image {
@@ -634,6 +660,7 @@
   padding-top: 10px;
   height: auto;
   width: 98%;
+  flex-wrap: wrap;
 }
 .news .card-space {
   margin-top: 20px;

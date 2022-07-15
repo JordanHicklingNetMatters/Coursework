@@ -33,7 +33,7 @@
 
 @media (max-width: 767px) {
     .main-logo {
-        height: 9vh;
+        height: 13vh;
         width: 50%;
     }
     .hamburger-btn {
@@ -48,7 +48,7 @@
 
 @media (min-width: 768px) {
     .main-logo {
-        height: 9vh;
+        height: 13vh;
         width: 40%;
     }
     .contact {
@@ -96,11 +96,16 @@
     .hidden-card {
         display: none;
     }
-    .view-link {
-        float: right;
-    }
 }
 
+@media (min-width: 600px) {
+    .trustpilot-btn {
+        width: 50%
+    }
+    .google-btn {
+        width: 40%;
+    }
+}
 @media (max-width: 470px) {
 
 }
