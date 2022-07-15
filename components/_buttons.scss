@@ -29,24 +29,22 @@
   }
 
   .search-btn { // The search button for the form. 
-    height: 75px;
-    width: 80px;
-    background-color: #999aa2;
+    height: 40px;
+    width: 40px;
+    background-color: #e3e3e3;
     color: $white;
-    border-color: #666;
-    font-size: 40px;
+    font-size: 20px;
+    border: none;
     &:hover {
-        filter: brightness(0.85)
+        cursor: pointer;
     }
 }
 
 .hamburger-btn { // The hamburger button for the header.
-    height: 100px;
-    width: 130px;
-    margin-top: 40px;
     margin-left: 40px;
+    margin-top: 30px;
     border-radius: 10px;
-    font-size: 70px;
+    font-size: 30px;
     background-color: #333645;
     border-color: #333645;
     color: $white;

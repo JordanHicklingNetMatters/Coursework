@@ -34,16 +34,20 @@
 @media (max-width: 767px) {
     .main-logo {
         height: 13vh;
-        width: 50%;
+        width: 40%;
     }
     .hamburger-btn {
-        height: 75px;
-        width: 75px;
+        height: 70px;
+        width: 70px;
         font-size: 30px;
     }
     #banner {
         text-align: center;
     }
+    .contact:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
 }
 
 @media (min-width: 768px) {
@@ -55,9 +59,9 @@
         display: none;
     }
     .hamburger-btn {
-        height: 7vh;
+        height: 9vh;
         width: 10%;
-        font-size: 40px;
+        font-size: 35px;
     }
     .form-control {
         float: none;
