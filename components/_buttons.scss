@@ -8,7 +8,8 @@
     font-size: 15px;
     letter-spacing: 2px;
     &:hover {
-        filter: brightness(0.85)
+        filter: brightness(0.85);
+        cursor: pointer;
     }
 }
 
@@ -22,8 +23,25 @@
     color: $white;
     font-size: 15px;
     letter-spacing: 2px;
+    }
+    .contact-btn:hover {
+        filter: brightness(0.85);
+        cursor: pointer;
+  }
+
+  .main-search-btn {
+    height: 60px;
+    width: 60px;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: #9b9d9e;
+    border: none;
+    border-radius: 5px;
+    color: $white;
     &:hover {
-        filter: brightness(0.85)
+        cursor: pointer;
+        filter: brightness(90%)
     }
   }
 
@@ -40,9 +58,9 @@
 }
 
 .hamburger-btn { // The hamburger button for the header.
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 30px;
     background-color: #333645;
     border-color: #333645;
