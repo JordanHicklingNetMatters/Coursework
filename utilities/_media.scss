@@ -31,13 +31,7 @@
     }    
 }
 
-@media (max-width: 1280px) {
-    .container {
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .main-logo {
         height: 9vh;
         width: 50%;
@@ -50,4 +44,63 @@
     #banner {
         text-align: center;
     }
+}
+
+@media (min-width: 768px) {
+    .main-logo {
+        height: 9vh;
+        width: 40%;
+    }
+    .contact {
+        display: none;
+    }
+    .hamburger-btn {
+        height: 7vh;
+        width: 10%;
+        font-size: 40px;
+    }
+    .form-control {
+        float: none;
+        width: 50%;
+    }
+    .header {
+        height: 10vh;
+    }
+    #service {
+        margin-left: 40px;
+    }
+    .cards {
+        width: 80%;
+        margin-left: 40px;
+    }
+    .about-container {
+        margin-left: 40px;
+        padding-right: 50px;
+        line-height: 1.875rem;
+        letter-spacing: .4px;
+    }
+    .review-container {
+        margin-left: 40px; 
+        padding-right: 50px; 
+    }
+    .google-btn {
+        width: 34%;
+    }
+    .trustpilot-btn {
+        width: 34%;
+    }
+    .news {
+        margin-left: 40px;
+        width: 50%;
+    }
+    .hidden-card {
+        display: none;
+    }
+    .view-link {
+        float: right;
+    }
+}
+
+@media (max-width: 470px) {
+
 }

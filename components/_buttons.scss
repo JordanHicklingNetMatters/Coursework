@@ -50,6 +50,9 @@
     background-color: #333645;
     border-color: #333645;
     color: $white;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
  // The read me buttons for the card area
@@ -144,12 +147,13 @@
 .about-read-more {
     .about-btn {
         height: 60px;
-        width: 30%;
+        width: 25%;
         border-radius: 10px;
         border-color: #1e1a26;
-        font-size: 25px;
+        font-size: 16px;
         background-color: #1e1a26;
         color: $white;
+        text-transform: uppercase;
         em {
             font-size: 20px;
             font-weight: bold;
@@ -161,12 +165,12 @@
     height: 6vh;
     width: 40%;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
     color: $white;
     background-color: #4387f6;
     em {
-        font-size: 20px;
+        font-size: 14px;
         font-weight: bold;
     }
 }
@@ -179,12 +183,12 @@
     height: 6vh;
     width: 40%;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
     color: $white;
     background-color: #00b67b;
     em {
-        font-size: 20px;
+        font-size: 14px;
         font-weight: bold;
     }
  }
@@ -200,7 +204,7 @@
     height: 50px;
     width: 20%;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 20px;
     color: $white;
     background-color: #00b67b;
     &:hover {
@@ -215,7 +219,7 @@
     height: 50px;
     width: 20%;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 20px;
     color: $white;
     background-color: red;
     &:hover {
@@ -224,12 +228,12 @@
  }
 
  .sub-btn {
-    width: 30%;
-    height: 120px;
-    margin-top: 40px;
-    margin-bottom: 60px;
-    border-radius: 10px;
-    font-size: 40px;
+    width: 15%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 15px;
     color: $white;
     background-color: #333645;
 }
@@ -247,14 +251,14 @@
 .open-button {
     background-color: #333645;
     color: white;
-    padding: 16px 20px;
+    padding: 10px 10px;
     border: none;
     cursor: pointer;
     position: fixed;
     bottom: 23px;
     right: 28px;
-    width: 60px;
-    height: 60px;
-    font-size: 30px;
-    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50px;
   }

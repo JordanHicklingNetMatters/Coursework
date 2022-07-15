@@ -1,41 +1,47 @@
 .newsletter {
-    padding-left: 30px;
     background-color: lightgray;
     padding-right: 30px;
     .newsletter-form  a {
-        text-decoration: none;
-        color: black;
+        text-decoration: underline;
+        color: #333645;
     }
     .h2-newsletter {
-        color: #2c2738;
-        font-size: 80px;
-        padding-top: 90px;
+        color: #333645;
+        font-size: 2rem;
+        padding-top: 40px;
+        padding-bottom: 20px;
     }
     .information {
         width: 100%;
-        height: 100px;
-        margin-top: 20px;
+        height: 5vh;
+        margin-bottom: 20px;
     }
     .information:after {
         content: " *";
         color: red;
     }
     .display-information {
-        font-size: 50px;
-        color: black;
+        font-size: 20px;
+        color: #333645;
+        font-weight: bold;
     }
     .display-information-2 {
-        padding-top: 20px;
-        font-size: 50px;
-        color: black;
+        font-size: 20px;
+        color: #333645;
+        font-weight: bold;
     }
     .tickbox {
-        height: 60px;
-        width: 50px;
-        margin-top: 10px;
+        position: relative;
+        height: 32px;
+        width: 32px;
+        border: 3px solid #333645;
+        margin-right: 10px;
+        float: left;
     }
     .accept-information {
-        font-size: 50px;
-        color: black;
+        font-size: 16px;
+        line-height: 1.7rem;
+        color: #333645;
+        font-weight: bold;
     }
 }
