@@ -1,5 +1,5 @@
 .cards {
-    max-width: 95%;
+    width: 97%;
     display: grid;
     grid-template-columns: repeat(auto-fill, max-width(900px, 1fr));
     gap: 40px;
@@ -16,6 +16,75 @@
     padding: 10px;
     border-radius: 15px;
     height: 31vh;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+
+ .first-card:hover {
+    background-color: #67809f;
+    color: $white;
+    margin-bottom: 5px;
+}
+
+.first-card {
+    border-radius: 15px;
+}
+
+.second-card:hover {
+    background-color: #4183d7;
+    color: $white;
+}
+
+.second-card {
+    border-radius: 15px;
+}
+
+.third-card:hover {
+    background-color: #2ecc71;
+    color: $white;
+}
+
+.third-card {
+    border-radius: 15px;
+}
+
+.fourth-card:hover {
+    background-color: #d64541;
+    color: $white;
+}
+
+.fourth-card {
+    border-radius: 15px;
+}
+
+.fifth-card:hover {
+    background-color: #926fb1;
+    color: $white;
+}
+
+.fifth-card {
+    border-radius: 15px;
+}
+
+.sixth-card:hover {
+    background-color: #f62459;;
+    color: $white;
+}
+
+.sixth-card {
+    border-radius: 15px;
+}
+
+.seventh-card:hover {
+    background-color: #ce4125;
+    color: $white;
+}
+
+.seventh-card {
+    border-radius: 15px;
 }
 
 .card-image {

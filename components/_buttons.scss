@@ -29,7 +29,7 @@
         cursor: pointer;
   }
 
-  .main-search-btn {
+  .main-search-btn { //This is the search btn that appears without the search form.
     height: 60px;
     width: 60px;
     font-size: 25px;
@@ -49,9 +49,10 @@
     height: 40px;
     width: 40px;
     background-color: #e3e3e3;
-    color: $white;
+    color: #333645;
     font-size: 20px;
     border: none;
+    margin-left: -10px;
     &:hover {
         cursor: pointer;
     }
@@ -78,6 +79,7 @@
     width: 100%;
     font-size: 15px;
     border-radius: 5px;
+    border: none;
     margin-top: 10px;
     color: $white;
     text-transform: uppercase;
@@ -92,6 +94,7 @@
     width: 100%;
     font-size: 15px;
     border-radius: 5px;
+    border: none;
     margin-top: 10px;
     color: $white;
     text-align: center;
@@ -107,6 +110,7 @@
     width: 100%;
     font-size: 15px;
     border-radius: 5px;
+    border: none;
     margin-top: 10px;
     color: $white;
     text-transform: uppercase;
@@ -121,6 +125,7 @@
     width: 100%;
     font-size: 15px;
     border-radius: 5px;
+    border: none;
     margin-top: 10px;
     color: $white;
     text-transform: uppercase;
@@ -135,6 +140,7 @@
     width: 100%;
     font-size: 15px;
     border-radius: 5px;
+    border: none;
     margin-top: 10px;
     color: $white;
     text-transform: uppercase;
@@ -149,6 +155,7 @@
     width: 100%;
     font-size: 15px;
     border-radius: 5px;
+    border: none;
     margin-top: 10px;
     color: $white;
     text-transform: uppercase;
@@ -163,6 +170,7 @@
     width: 100%;
     font-size: 15px;
     border-radius: 5px;
+    border: none;
     margin-top: 10px;
     color: $white;
     text-transform: uppercase;
@@ -191,6 +199,9 @@
     }
 }
 
+.about-btn:hover {
+    cursor: pointer;
+}
 
  .google-btn {
     height: 6vh;

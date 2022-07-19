@@ -6,7 +6,7 @@
 .header-content {
     display: flex;
     margin-top: 10px;
-    height: 15vh;
+    height: 13vh;
 }
 
 .main-logo {
@@ -35,6 +35,10 @@
     border: none;
   }
 
+  .form-control:focus {
+    outline: none;
+  }
+  
 .header a {
   height: 60px;
 }

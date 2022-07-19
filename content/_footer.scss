@@ -52,7 +52,7 @@ footer {
     padding-bottom: 40px;
     .licence {
         display: flex;
-        font-size: 20px;
+        font-size: 13px;
         margin-left: 30px;
     }
     a {
@@ -66,29 +66,13 @@ footer {
         list-style-type: none;
         margin-top: -2px;
     }
+}
+
+.social {
+    margin-left: 30px;
     span {
-        margin-left: 30px;
-    }
-    .social {
-        float: right;
-        top: 0px;
-        right: 0px;
-        margin-left: 30px;
-    }
-    .facebook {
-        height: 30px;
-        margin-left: 20px;
-    }
-    .twitter {
-        height: 30px;
-        margin-left: 20px;
-    }
-    .instagram {
-        height: 30px;
-        margin-left: 20px;
-    }
-    .linkedin {
-        height: 30px;
-        margin-left: 20px;
+        justify-content: space-between;
+        color: $white;
+        background-color: #333645   ;
     }
 }
