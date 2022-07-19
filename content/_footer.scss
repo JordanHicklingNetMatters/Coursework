@@ -14,6 +14,7 @@ footer {
         display: flex;
         justify-content: space-evenly;
         width: 100%;
+        margin-right: 10px;
     }
     h4 {
         padding-bottom: 10px;
@@ -35,7 +36,7 @@ footer {
     li {
         line-height: 22px;
         left: auto;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
     .services-list {
         display: flex;
