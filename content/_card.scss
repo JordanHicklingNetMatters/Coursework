@@ -26,6 +26,8 @@
     background-color: #67809f;
     color: $white;
     margin-bottom: 5px;
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
 }
 
 .first-card {
@@ -35,6 +37,8 @@
 .second-card:hover {
     background-color: #4183d7;
     color: $white;
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
 }
 
 .second-card {
@@ -44,6 +48,8 @@
 .third-card:hover {
     background-color: #2ecc71;
     color: $white;
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
 }
 
 .third-card {
@@ -53,6 +59,8 @@
 .fourth-card:hover {
     background-color: #d64541;
     color: $white;
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
 }
 
 .fourth-card {
@@ -62,6 +70,8 @@
 .fifth-card:hover {
     background-color: #926fb1;
     color: $white;
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
 }
 
 .fifth-card {
@@ -71,6 +81,8 @@
 .sixth-card:hover {
     background-color: #f62459;;
     color: $white;
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
 }
 
 .sixth-card {
@@ -80,6 +92,8 @@
 .seventh-card:hover {
     background-color: #ce4125;
     color: $white;
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
 }
 
 .seventh-card {

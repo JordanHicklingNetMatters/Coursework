@@ -333,11 +333,11 @@
   border: none;
   cursor: pointer;
   position: fixed;
-  bottom: 23px;
-  right: 28px;
-  width: 50px;
-  height: 50px;
-  font-size: 20px;
+  bottom: 15px;
+  right: 15px;
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
   border-radius: 50px;
 }
 
@@ -620,6 +620,8 @@
   background-color: #67809f;
   color: #fff;
   margin-bottom: 5px;
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
 }
 
 .first-card {
@@ -629,6 +631,8 @@
 .second-card:hover {
   background-color: #4183d7;
   color: #fff;
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
 }
 
 .second-card {
@@ -638,6 +642,8 @@
 .third-card:hover {
   background-color: #2ecc71;
   color: #fff;
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
 }
 
 .third-card {
@@ -647,6 +653,8 @@
 .fourth-card:hover {
   background-color: #d64541;
   color: #fff;
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
 }
 
 .fourth-card {
@@ -656,6 +664,8 @@
 .fifth-card:hover {
   background-color: #926fb1;
   color: #fff;
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
 }
 
 .fifth-card {
@@ -665,6 +675,8 @@
 .sixth-card:hover {
   background-color: #f62459;
   color: #fff;
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
 }
 
 .sixth-card {
@@ -674,6 +686,8 @@
 .seventh-card:hover {
   background-color: #ce4125;
   color: #fff;
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
 }
 
 .seventh-card {
@@ -831,16 +845,43 @@
   padding-left: 40px;
   font-size: 20px;
 }
-.news .avatar-img {
-  height: 20px;
-  width: 20px;
+
+.first-article:hover {
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.second-article:hover {
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.third-article:hover {
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.posted-by-section {
+  text-align: center;
+}
+
+.avatar-img {
+  text-decoration: overline;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
 }
-.news #posted-h5 {
+
+#posted-h5 {
   color: #333645;
 }
-.news #news-date {
+
+#news-date {
   color: #333645;
+  padding-bottom: 20px;
 }
 
 .view-all-section {
@@ -852,6 +893,10 @@
 .view-all-section .view-link {
   text-decoration: none;
   color: #333645;
+}
+.view-all-section .view-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 
 .newsletter {
