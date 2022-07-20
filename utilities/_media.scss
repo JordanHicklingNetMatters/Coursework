@@ -46,15 +46,18 @@
         height: 60px;
         width: 70px;
     }
-    #banner p {
-        text-align: center;
-    }   
+    .form-control {
+        padding-left: 20px;
+    }
     #banner {
         text-align: center;
     }
     .cards {
         max-width: 93%;
         margin-left: 40px;
+    }
+    #service {
+        margin-left: 35px;
     }
     .about-container {
         margin-left: 40px;
@@ -73,8 +76,8 @@
         width: 34%;
     }
     .news {
+        max-width: 93%;
         margin-left: 40px;
-        width: 50%;
     }
     .hidden-card {
         display: none;
@@ -129,5 +132,9 @@
         height: 60px;
         width: 70px;
         margin-left: 20px;
+    }
+    #banner h1 {
+        font-size: 4rem;
+        line-height: 5rem;
     }
 }

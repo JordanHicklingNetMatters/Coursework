@@ -1,5 +1,5 @@
 .cards {
-    width: 97%;
+    width: 95%;
     display: grid;
     grid-template-columns: repeat(auto-fill, max-width(900px, 1fr));
     gap: 40px;
@@ -21,7 +21,6 @@
 .card:hover {
     cursor: pointer;
 }
-
 
  .first-card:hover {
     background-color: #67809f;
