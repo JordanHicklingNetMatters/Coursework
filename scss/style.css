@@ -900,6 +900,7 @@
   margin-top: 20px;
   line-height: 1.6rem;
   font-size: 15px;
+  letter-spacing: normal;
 }
 
 .news-date {
@@ -985,6 +986,16 @@
   line-height: 1.7rem;
   color: #333645;
   font-weight: bold;
+}
+
+.display-information:after {
+  content: " * ";
+  color: red;
+}
+
+.display-information-2:after {
+  content: " * ";
+  color: red;
 }
 
 footer {
@@ -1102,6 +1113,7 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
+  letter-spacing: normal;
 }
 
 #service {
