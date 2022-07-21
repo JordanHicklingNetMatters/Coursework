@@ -46,7 +46,10 @@ footer {
     }
 }
 
-
+.line {
+    border: 0.5px solid $white;
+    margin-bottom: 10px;
+}
 
 .bottom {
     color: $white;
