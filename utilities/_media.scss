@@ -29,7 +29,7 @@
     .contact:hover {
         cursor: pointer;
         text-decoration: underline;
-      }
+      } 
 }
 
 @media (min-width: 768px) {
@@ -55,6 +55,9 @@
     .cards {
         max-width: 93%;
         margin-left: 40px;
+    }
+    .container-2 {
+        justify-content: center;
     }
     #service {
         margin-left: 35px;
@@ -82,6 +85,22 @@
     .hidden-card {
         display: none;
     }
+    // .fourth-card {
+    //     float: right;
+    //     width: 50%;
+    // }
+    // .fifth-card {
+    //     float: left;
+    //     width: 50%;
+    // }
+    // .sixth-card {
+    //     float: right;
+    //     width: 50%;
+    // }
+    // .seventh-card {
+    //     float: left;
+    //     width: 50%;
+    // } Will be uncommented once done. The float does not work and this needs to be researched. 
 }
 
 // screensizes with less than 999px
@@ -137,4 +156,21 @@
         font-size: 4rem;
         line-height: 5rem;
     }
+    // .about-section {
+    //     display: flex;
+    //     flex-wrap: wrap;
+    //     flex-direction: row;
+    // }
+    // .about-container {
+    //     float: left;
+    //     width: 50%;
+    //     margin-left: 20px;
+    //     padding-right: 30px;
+    // }
+    // .review-container {
+    //     float: right;
+    //     width: 50%;
+    //     margin-left: 10px;
+    //     padding-right: 10px;
+    // } //This does not work right now and needs working on.
 }

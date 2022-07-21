@@ -368,6 +368,7 @@
   color: #fff;
   font-size: 1.3rem;
   line-height: 1.75rem;
+  margin: 0 0 1.25rem;
   font-weight: 600;
   position: absolute;
   top: 60%;
@@ -471,6 +472,9 @@
   .cards {
     max-width: 93%;
     margin-left: 40px;
+  }
+  .container-2 {
+    justify-content: center;
   }
   #service {
     margin-left: 35px;
