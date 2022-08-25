@@ -52,3 +52,44 @@
         display: inline-block;
     }
   }
+
+
+  .sidebar-navigation, .big-screen-sidebar {
+    overflow: hidden;
+    transition: 0.5s;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    right: 0;
+    background-color: #333645;
+    width: 0;
+    top: 0;
+    color: $white;
+    overflow-y: scroll;
+    li {
+        list-style: none;
+        padding: 8px;
+        background-color: #282b3d;
+        padding-top: 20px;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+    h3 {
+        padding-bottom: 10px;
+        font-size: 17px;
+        margin-left: 10px;
+        height: 10px;
+        margin-bottom: 20px;
+    }
+    .right-arrows {
+        font-size: 8px;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+  }
