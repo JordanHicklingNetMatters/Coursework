@@ -307,9 +307,10 @@
     cursor: pointer;
     position: fixed;
     bottom: 15px;
-    right: 15px;
+    right: 30px;
     width: 70px;
     height: 70px;
     font-size: 30px;
     border-radius: 50px;
+    z-index: 1;
   }

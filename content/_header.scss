@@ -1,15 +1,16 @@
 .header-content {
     display: flex;
-    margin-top: 10px;
-    height: 11vh;
+    margin-top: 8px;
 }
 
 .main-logo {
   display: block;
   padding: 20px;
   text-align: center;
-  width: 60%;
-  margin-right: 30px;
+  width: 42vw;
+  height: 10vh;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .contact {

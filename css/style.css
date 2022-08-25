@@ -334,11 +334,12 @@
   cursor: pointer;
   position: fixed;
   bottom: 15px;
-  right: 15px;
+  right: 30px;
   width: 70px;
   height: 70px;
   font-size: 30px;
   border-radius: 50px;
+  z-index: 1;
 }
 
 #banner {
@@ -448,6 +449,7 @@
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 .sidebar-navigation a, .big-screen-sidebar a {
   text-decoration: none;
@@ -495,9 +497,6 @@
   }
 }
 @media (min-width: 768px) {
-  .main-logo {
-    max-width: 400px;
-  }
   .contact {
     display: none;
   }
@@ -607,16 +606,18 @@
 }
 .header-content {
   display: flex;
-  margin-top: 10px;
-  height: 11vh;
+  margin-top: 8px;
 }
 
 .main-logo {
   display: block;
   padding: 20px;
   text-align: center;
-  width: 60%;
-  margin-right: 30px;
+  width: 42vw;
+  height: 10vh;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .contact {
