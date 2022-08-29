@@ -33,7 +33,7 @@
       .p1 {
         width: 100%;
     }
-    .big-screen-sidebar {
+    .sidebar-navigation {
         display: none;
     }
 }
@@ -129,7 +129,7 @@
     }
 } //This is just a test media query Right now that will make the main navigation disappaer if its less than 980px wide.
 
-@media (max-width: 980px) {
+@media (max-width: 992px) {
     .contact-btn {
         display: none;
     }
@@ -142,6 +142,9 @@
 
 @media (min-width: 1000px) {
     .header-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
     }
     .header {

@@ -54,12 +54,12 @@
   }
 
 
-  .sidebar-navigation, .big-screen-sidebar {
+  .mobile-sidebar-navigation, .big-screen-sidebar {
     overflow: hidden;
     transition: 0.5s;
     height: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 9999;
     overflow: hidden;
     right: 0;
     background-color: #333645;
@@ -67,15 +67,18 @@
     top: 0;
     color: $white;
     overflow-y: scroll;
+    text-align: center;
     li {
         list-style: none;
         padding: 8px;
-        background-color: #282b3d;
+        background-color: #333645;
         padding-top: 20px;
         font-size: 13px;
         font-weight: 600;
         text-transform: uppercase;
         padding-bottom: 20px;
+        line-height: 20px;
+        border: 1px solid white;
     }
     a {
         text-decoration: none;
@@ -92,5 +95,18 @@
         font-size: 8px;
         margin-right: 20px;
         margin-left: 10px;
+    }
+    #top-sidebar {
+        margin-top: 20px;
+        border: 1px solid white;
+        width: 80%;
+        margin-left: 20px;
+        font-size: 18px;;
+        font-weight: 1;
+        margin-bottom: 20px;
+    }
+    span {
+        font-size: 25px;
+        margin-top: 20px;
     }
   }

@@ -1,7 +1,6 @@
 .support-btn {
 	width: 150px;
     height: 60px;
-    margin-top: 30px;
     border-color: #4183d7;
     background-color: #4183d7;
     color: $white;
@@ -17,7 +16,6 @@
 	width: 150px;
     height: 60px;
     margin-left: 10px;
-    margin-top: 30px;
     border-color:   #9b9d9e;
     background-color: #9b9d9e;
     color: $white;
@@ -34,7 +32,6 @@
     width: 60px;
     font-size: 25px;
     margin-left: 20px;
-    margin-top: 30px;
     background-color: #9b9d9e;
     border: none;
     border-radius: 5px;
@@ -45,7 +42,9 @@
     }
   }
 
+
   .search-btn { // The search button for the form. 
+    margin-top: 1px;
     height: 40px;
     width: 40px;
     background-color: #e3e3e3;
@@ -59,19 +58,23 @@
 }
 
 .hamburger-btn { // The hamburger button for the header.
-    margin-left: 20px;
-    margin-top: 30px;
     border-radius: 5px;
     font-size: 30px;
     background-color: #333645;
     border-color: #333645;
     color: $white;
+    margin-left: 20px;
     &:hover {
         cursor: pointer;
     }
 }
 
- // The read me buttons for the card area
+//=======================================
+//
+// The read me buttons for the card area
+//
+//========================================
+
 
 .app-read-more {
     background-color: gray;
