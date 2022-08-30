@@ -43,7 +43,7 @@
   height: 60px;
 }
 
-.sticky-header {
+.sticky-header { 
     position: fixed;
     top: 0;
     width: 100%;
@@ -52,8 +52,7 @@
 
 .sticky-header-nav {
   background-color: white;
-  margin-bottom: 10px;
   z-index: 2;
-  position: fixed;
   width: 100%;
+  position: fixed;
 }

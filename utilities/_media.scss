@@ -136,6 +136,9 @@
     .support-btn {
         display: none;
     }
+    .big-screen {
+        display: none;
+    }
 } // Hides the two buttons on the header on smaller screens.
 
 // screensizes with 1000+px
@@ -170,6 +173,9 @@
     }
     .dash {
         margin-left: 20px;
+    }
+    .small-screen {
+        display: none;
     }
     // .about-section {
     //     display: flex;

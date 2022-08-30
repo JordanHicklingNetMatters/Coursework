@@ -315,5 +315,14 @@
     height: 70px;
     font-size: 30px;
     border-radius: 50px;
-    z-index: 1;
+    z-index: 9999;
+  }
+
+  .close-btn {
+    background-color: #333645;
+    border: none;
+    color: white;
+    font-size: 20px;
+    float: right;
+    top: 0;
   }
