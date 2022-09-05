@@ -1,33 +1,33 @@
+//=======================================================
+//
+//            Start of Sidebar Navigation
+//
+//=======================================================
+
+//vairables for the sidebar navigation.
 const hamburgerButton = document.querySelector('.hamburger-btn');
 const closeButton = document.querySelector('.close-btn');
 
+//Open navigation on hamburger click. 
 hamburgerButton.addEventListener("click", openNav)
 function openNav(){
     document.getElementsByClassName("sidebar")[0].style.width = "30%";
     document.getElementById("main").style.marginRight = "25%";
-    document.getElementsByClassName("main-logo").style.marginRight = "25%";
 }
 
-
+//closing function for closebutton
 closeButton.addEventListener("click", closeNav)
 function closeNav(){
     document.getElementsByClassName("sidebar")[0].style.width = "0";
     document.getElementById("main").style.marginRight = "0";
 }
 
-
-
-
-// $(window).scroll(function() {
-//     if ($(this).scrollTop() > 1){
-//     $('sticky-header-nav').addClass('sticky-header');
-//     }
-//     else{
-//     $('sticky-header-nav').removeClass('sticky-header');
-//     }
+// $(document).click(function (e) {
+ // function closeNav(){
+ // }
 // });
 
-
+//scroll function for the sidebar
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
@@ -38,6 +38,119 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+
+// $( document ).click(function( event ) {
+//   let target = $( event.target );
+//   if(openNav){
+//      closeSideBar();
+//   } else {
+//     if(target.is( '.sidebar' )){
+//       closeNav();
+//     }
+//   }
+// });
+
+//=======================================================
+//
+//            End of Sidebar Navigation
+//
+//=======================================================
+
+//=======================================================
+//
+//             Start of Sticky Header
+//
+//=======================================================
+
+// function stickyHeader() {
+//   if(window.pageYOffset > sticky){
+//       header.classList.add('sticky-header');
+//   } else {
+//       header.classList.remove('sticky-header');
+//   }
+// }
+
+window.onscroll = function() {stickyHeader()};
+
+let header = document.getElementById('sticky-header-nav');
+let sticky = header.offsetTop;
+
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 1){
+    $('sticky-header-nav').addClass('sticky-header');
+    }
+    else{
+    $('sticky-header-nav').removeClass('sticky-header');
+    }
+});
+
+//=======================================================
+//
+//               End of Sticky Header
+//
+//=======================================================
+
+//=======================================================
+//
+//               Start of Flickity
+//
+//=======================================================
+
+// $(document).ready(function(){
+//   $('.sponsers-carousel').slick({
+//     slidesToShow: 3,
+//     slidesToScroll: 1,
+//     autoplay: true,
+//     autoplaySpeed: 2000,
+//   });
+// });
+
+// $('.sponsers-carousel').flickity({
+//   // options
+//   cellAlign: 'left',
+//   contain: true,
+//   wrapAround: true
+// });
+
+let flkty = new Flickity( '.sponsers-carousel', {
+  // options
+  cellAlign: 'left',
+  contain: true
+});
+
+//=======================================================
+//
+//                End of Flickity
+//
+//=======================================================
+
+//=======================================================
+//
+//                  Start of Slick
+//
+//=======================================================
+
+// $('.variable-width').slick({
+//   dots: false,
+//   infinite: true,
+//   speed: 300,
+//   slidesToShow: 1,
+//   centerMode: true,
+//   variableWidth: true
+// });
+
+//=======================================================
+//
+//                    End of Slick
+//
+//=======================================================
+
+//=======================================================
+//
+//               Start of Cookie Pop Up
+//
+//=======================================================
 
 // let cookieModal = document.querySelector(".cookie-consent-modal")
 // let changeCookieBtn = document.querySelector(".btn.cancel")
@@ -59,34 +172,17 @@ var currentScrollPos = window.pageYOffset;
 //   }
 // }, 2000)
 
+//=======================================================
+//
+//               End of Cookie Pop Up
+//
+//=======================================================
 
-
-
-
-
-
-
-
-
-
-// window.onscroll = function() {stickyHeader()};
-
-// let header = document.getElementById('sticky-header-nav');
-// let sticky = header.offsetTop;
-
-// function stickyHeader() {
-//     if(window.pageYOffset > sticky){
-//         header.classList.add('sticky-header');
-//     } else {
-//         header.classList.remove('sticky-header');
-//     }
-// }
-
-
-
-
-
-
+//=======================================================
+//
+//               Start of Jquery Test
+//
+//=======================================================
 
 // Testing if jquery is working
 // window.onload = function() {
@@ -98,3 +194,9 @@ var currentScrollPos = window.pageYOffset;
 //         alert("Doesn't Work");
 //     }
 // }
+
+//=======================================================
+//
+//               End of Jquery Test
+//
+//=======================================================

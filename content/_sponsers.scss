@@ -1,7 +1,27 @@
-.rows {
-    display: flex;
+.main-image {
+    width:100%;
+} 
+
+.main-image .sponsers-carousel {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+.sponsers-carousel img {
+    height: 6vh;
+    justify-content: cover;
 }
-.sponsers img {
-    height: 50px;
-    margin-top: 60px;
+
+
+.main-image .carousel-cell {
+    width: 12vw;
+    height: 80px;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+  }
+
+  .main-image .carousel-nav .carousel-cell {
+    height: 168px;
+    width: 250px;
+    opacity: 0.5;
 }

@@ -22,7 +22,6 @@
   margin-left: 120px;
 }
 
-
   .form-control {
     float: left;
     width: 93%;
@@ -52,7 +51,12 @@
 
 .sticky-header-nav {
   background-color: white;
+  position: fixed;
   z-index: 2;
   width: 100%;
-  position: fixed;
+  top: 0;
+}
+
+.first-cell {
+  left: 0;
 }
