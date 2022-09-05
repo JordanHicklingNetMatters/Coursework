@@ -54,3 +54,54 @@ footer {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+#main {
+  transition: margin-right .5s;
+}
+
+
+
+// Cookie Pop Up CSS
+
+// .cookie-consent-modal {
+//     height: 100ch;
+//     width: 100vw;
+//     background-color: rgba(0, 0, 0, 0.5);
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     display: flex;
+//     z-index: 999;
+//     justify-content: center;
+// }
+
+// .cookie-consent-modal.active{
+//     display: flex;
+// }
+
+// .content {
+//     background-color: white;
+//     padding: 5vw 3vw;
+//     border-radius: 10px 10px 0 0;
+// }
+
+// .btns{
+//     display: flex;
+//     justify-content: flex-end;
+//     margin-top: 2em;
+// }
+
+// .btn {
+//     border: none;
+//     outline: none;
+//     padding: .8em 1.5em;
+//     width: 100px;
+//     margin-right: 1em;
+//     border-radius: 3px;
+//     text-transform: uppercase;
+// }
+
+// .btn.accept {
+//     background-color: #926fb1;
+//     color: white;
+// }
