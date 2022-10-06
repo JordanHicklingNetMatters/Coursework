@@ -10,6 +10,11 @@
         filter: brightness(0.85);
         cursor: pointer;
     }
+    a {
+        color: white;
+        text-decoration: none;
+        padding-left: 2px;
+    }
 }
 
 .contact-btn {
@@ -21,7 +26,12 @@
     color: $white;
     font-size: 15px;
     letter-spacing: 2px;
+    a {
+        color: white;
+        text-decoration: none;
+        padding-left: 2px;
     }
+}
     .contact-btn:hover {
         filter: brightness(0.85);
         cursor: pointer;

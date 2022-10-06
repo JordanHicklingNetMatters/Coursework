@@ -28,16 +28,16 @@ function closeNav(){
 // });
 
 //scroll function for the sidebar
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementsByClassName("sticky-header").style.top = "0";
-  } else {
-    document.getElementsByClassName("sticky-header").style.top = "-100px";
-  }
-  prevScrollpos = currentScrollPos;
-}
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function() {
+// var currentScrollPos = window.pageYOffset;
+//   if (prevScrollpos > currentScrollPos) {
+//     document.getElementsByClassName("sticky-header").style.top = "0";
+//   } else {
+//     document.getElementsByClassName("sticky-header").style.top = "-100px";
+//   }
+//   prevScrollpos = currentScrollPos;
+// }
 
 // $( document ).click(function( event ) {
 //   let target = $( event.target );
@@ -70,20 +70,20 @@ var currentScrollPos = window.pageYOffset;
 //   }
 // }
 
-window.onscroll = function() {stickyHeader()};
+// window.onscroll = function() {stickyHeader()};
 
-let header = document.getElementById('sticky-header-nav');
-let sticky = header.offsetTop;
+// let header = document.getElementById('sticky-header-nav');
+// let sticky = header.offsetTop;
 
 
-$(window).scroll(function() {
-    if ($(this).scrollTop() > 1){
-    $('sticky-header-nav').addClass('sticky-header');
-    }
-    else{
-    $('sticky-header-nav').removeClass('sticky-header');
-    }
-});
+// $(window).scroll(function() {
+//     if ($(this).scrollTop() > 1){
+//     $('sticky-header-nav').addClass('sticky-header');
+//     }
+//     else{
+//     $('sticky-header-nav').removeClass('sticky-header');
+//     }
+// });
 
 //=======================================================
 //

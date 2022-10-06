@@ -10,20 +10,10 @@
     list-style-type: none;
     text-transform: uppercase;
     text-align: center;
-    span {
-        padding: 5px
-    }
-    small {
-        font-size: 10px;
-    }
-     a {
-        padding: 5px;
-        text-decoration: none;
-        color: $white;
-    }
     a:hover {
         .software{
             background-color: #67809f;
+            border: 2px solid red;
         }
         .support {
             background-color: #20caf5;
@@ -43,6 +33,17 @@
         .developer-course {
             background-color: orange;
         }
+    }
+    span {
+        padding: 5px
+    }
+    small {
+        font-size: 10px;
+    }
+     a {
+        padding: 5px;
+        text-decoration: none;
+        color: $white;
     }
     .first-list {
         list-style: none;
