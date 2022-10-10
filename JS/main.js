@@ -62,6 +62,27 @@ function closeNav(){
 //
 //=======================================================
 
+// const header = document.querySelector('header');
+// let scrollPosition = 0;
+
+
+// document.addEventListener('scroll', () => { 
+//    let scroll = window.scrollY 
+//    // scrollY stores the scroll position as a number
+//    if (scroll < scrollPosition){
+//       // upscroll
+//       header.classList.add('sticky');
+//       header.classList.remove('no-stick');
+//    } if (scroll > scrollPosition) {
+//       // downscroll
+//       header.classList.remove('sticky');
+//       header.classList.add('no-stick');
+//    }
+//    scrollPosition = scroll <= 0 ? 0 : scroll; 
+// });
+
+
+
 // function stickyHeader() {
 //   if(window.pageYOffset > sticky){
 //       header.classList.add('sticky-header');
@@ -97,11 +118,11 @@ function closeNav(){
 //
 //=======================================================
 
-// let flkty = new Flickity( '.sponsers-carousel', {
-//   // options
-//   cellAlign: 'left',
-//   contain: true
-// });
+let flkty = new Flickity( '.sponsers-carousel', {
+  // options
+  cellAlign: 'left',
+  contain: true
+});
 
 //=======================================================
 //
@@ -124,17 +145,17 @@ function closeNav(){
 //   variableWidth: true
 // });
 
-$(document).ready(function(){
-  $('.carousel-sponser').slick({
-      accessibility: true,
-      infinite: true,
-      autoplay: true,
-      speed: 300,
-      slidesToShow: 1,
-      centerMode: true,
-      variableWidth: true
-  });
-});
+// $(document).ready(function(){
+//   $('.carousel-sponser').slick({
+//       accessibility: true,
+//       infinite: true,
+//       autoplay: true,
+//       speed: 300,
+//       slidesToShow: 1,
+//       centerMode: true,
+//       variableWidth: true
+//   });
+// });
 
 //=======================================================
 //
