@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/fc2f3a0d11.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="css/flickity.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <!-- <link rel="stylesheet" href="css/flickity.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
     <link rel="stylesheet" href="scss/style.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Netmatters | Full Service Digital Agency | Cambrifgeshire & Norfolk | Netmatters</title>
@@ -271,7 +271,7 @@
     <!-- The end of the card navigation section. -->
 
     <!-- Underneath Our Services Menu there are sponserships this will be here:-->
-        <div class="main-image">
+        <!-- <div class="main-image">
             <div class="sponsers-carousel" data-flickity='{ "autoPlay": true }'>
                 <div class="carousel-cell first-cell"><img src="img/ppc.jpg" alt="Prompt Payment Code"></div>
                 <div class="carousel-cell"><img src="img/princess-royal-training-award.png" alt="Princess Royal Training Award"></div>
@@ -283,8 +283,20 @@
                 <div class="carousel-cell"><img src="img/carbon-charter-2021.jpg" alt="carbon charter 2021 award"></div>
                 <div class="carousel-cell"><img src="img/investing-in-future-growth.jpg" alt="carbon charter 2021 award"></div>
             </div>
-        </div>
+        </div> -->
     <!-- The end of the sponser scroll -->
+
+    <div class="carousel-sponser">
+        <div><img src="img/ppc.jpg" alt="Prompt Payment Code"></div>
+        <div><img src="img/princess-royal-training-award.png" alt="Princess Royal Training Award"></div>
+        <div><img src="img/future-50.jpg" alt="Future 50"></div>
+        <div><img src="img/qms-iso-2015.png" alt="qms-iso 2015 award"></div>
+        <div><img src="img/qms-iso-2013.png" alt="qms-iso 2013 award"></div>
+        <div><img src="img/google-partner.png" alt="google partner"></div>
+        <div><img src="img/skills-of-tomorrow.png" alt="skills of tomorrow award"></div>
+        <div><img src="img/carbon-charter-2021.jpg" alt="carbon charter 2021 award"></div>
+        <div><img src="img/investing-in-future-growth.jpg" alt="carbon charter 2021 award"></div>
+      </div>
 
     <!-- Welcome to Netmatters information section-->
     <section>
@@ -339,81 +351,63 @@
             <h2 id="news-text">Latest News</h2>
             <!-- Latest News section of the webpage -->
         <div class="flex-container">
-            <div class="parent-conatiner">
-                <div class="news">
-                    <div class="first-article">
+            <div class="first-article">
+                <div class="news-content">
+                    <img class="main-article-img" src="img/junior-digital-marketing.jpg" alt="A picture advertising a job for junior digital marketing executive.">
+                    <h4 class="h4-news">Junior Digital Marketing Executive</h4>
+                    <p class="description">Salary Range $18,000 - £23,000 Hours 40 hours per week, Mon-Fri Location
+                        Wymondham, Norfolk. Great...</p>
+                    <a href="#"><button class="news-read-more-btn" type="button">Read More</button></a>
+                    <div class="posted-by-section">
+                        <div>
+                            <img class="avatar-img" src="img/news-avatar.png" alt="An avatar of the user who posted the article.">
+                        </div>
+                        <div class="details">
+                            <strong class="posted-strong">Posted by Netmatters</strong>
+                            <br>
+                            20th July 2022
+                        </div>
+                    </div>
+                </div>
+            </div><!-- This is the articals posted by page however when I input it, it just doesnt do anything so I will leave it commented for now. -->
+            <div class="second-article"> <!-- Second Artical -->
+                <div class="news-content">
+                    <img class="main-article-img" src="img/SEO.jpg" alt="Text stating What you dont know about seo">
+                    <h4 class="h4-news">What You Don't Know About SEO</h4>
+                    <p class="description">Technology. Competitors. Search Engine Algorithms. These factors are all
+                        inevitably goint to be ever...</p>
+                    <a href="#"><button class="news-read-more-btn" type="button">Read More</button></a>
+                    <div class="posted-by-section">
+                        <div>
+                            <img class="avatar-img" src="img/news-avatar.png"
+                                alt="An avatar of the user who posted the article.">
+                        </div>
+                        <div class="details">
+                            <strong class="posted-strong">Posted by Netmatters</strong>
+                            <br>
+                            20th July 2022
+                        </div>
+                    </div> 
+                </div>
+            </div> <!-- Third Article -->
+            <div class="hidden-card">
+                    <div class="third-article">
                         <div class="news-content">
-                            <img class="main-article-img" src="img/junior-digital-marketing.jpg"
-                                alt="A picture advertising a job for junior digital marketing executive.">
-                            <h4 class="h4-news">Junior Digital Marketing Executive</h4>
-                            <p class="description">Salary Range $18,000 - £23,000 Hours 40 hours per week, Mon-Fri Location
-                                Wymondham, Norfolk. Great...</p>
-                            <a href="#"><button class="news-read-more-btn" type="button">Read More</button></a>
+                            <img class="main-article-img" src="img/new-business-executive.jpg"
+                                alt="A picture with a phone advertising jobs for new business exectuives">
+                            <h4 class="red-h4-news">New Business Executive</h4>
+                            <p class="description">Salary Range £22,000 & OTE Hours 40 hours per week, Monday - Friday
+                                Location Wymondham, Norfolk/Part...</p>
+                            <a href="#"><button class="red-news-read-more-btn" type="button">Read More</button></a>
                             <div class="posted-by-section">
                                 <div>
-                                    <img class="avatar-img" src="img/news-avatar.png" alt="An avatar of the user who posted the article.">
+                                    <img class="avatar-img" src="img/news-avatar.png"
+                                        alt="An avatar of the user who posted the article.">
                                 </div>
                                 <div class="details">
                                     <strong class="posted-strong">Posted by Netmatters</strong>
                                     <br>
                                     20th July 2022
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                <!-- This is the articals posted by page however when I input it, it just doesnt do anything so I will leave it commented for now. -->
-                <!-- Second Artical -->
-            <div class="parent-conatiner">
-                <div class="news">    
-                    <div class="card-space">
-                        <div class="second-article">
-                            <div class="news-content">
-                                <img class="main-article-img" src="img/SEO.jpg" alt="Text stating What you dont know about seo">
-                                <h4 class="h4-news">What You Don't Know About SEO</h4>
-                                <p class="description">Technology. Competitors. Search Engine Algorithms. These factors are all
-                                    inevitably goint to be ever...</p>
-                                <a href="#"><button class="news-read-more-btn" type="button">Read More</button></a>
-                                <div class="posted-by-section">
-                                    <div>
-                                        <img class="avatar-img" src="img/news-avatar.png"
-                                            alt="An avatar of the user who posted the article.">
-                                    </div>
-                                    <div class="details">
-                                        <strong class="posted-strong">Posted by Netmatters</strong>
-                                        <br>
-                                        20th July 2022
-                                    </div>
-                                </div> 
-                            </div>
-                        </div> <!-- Third Article -->
-                    </div>
-                </div>
-            </div>
-            <div class="parent-conatiner">
-                <div class="news">
-                    <div class="hidden-card">
-                        <div class="card-space">
-                            <div class="third-article">
-                                <div class="news-content">
-                                    <img class="main-article-img" src="img/new-business-executive.jpg"
-                                        alt="A picture with a phone advertising jobs for new business exectuives">
-                                    <h4 class="red-h4-news">New Business Executive</h4>
-                                    <p class="description">Salary Range £22,000 & OTE Hours 40 hours per week, Monday - Friday
-                                        Location Wymondham, Norfolk/Part...</p>
-                                    <a href="#"><button class="red-news-read-more-btn" type="button">Read More</button></a>
-                                    <div class="posted-by-section">
-                                        <div>
-                                            <img class="avatar-img" src="img/news-avatar.png"
-                                                alt="An avatar of the user who posted the article.">
-                                        </div>
-                                        <div class="details">
-                                            <strong class="posted-strong">Posted by Netmatters</strong>
-                                            <br>
-                                            20th July 2022
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -444,7 +438,6 @@
                 </div>
             </div>
         </div>
-    </div>
     <!-- Start of the chat feature -->
     <button class="open-button"><span class="fa-solid fa-comment-dots"></span></button>
     <!-- <div class="chat" id="chatform">
@@ -560,8 +553,9 @@
         </div>
     </footer>
     <script src="js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="js/flickity.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+    <!-- <script src="js/flickity.js"></script> -->
+    <script src="https://kit.fontawesome.com/fc2f3a0d11.js" crossorigin="anonymous"></script>
     <!-- <script src="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.addEventListener("load",function(){window.wpcc.init({"border":"normal","colors":{"popup":{"background":"#1a3242","text":"#ffffff","border":"#b3d0e4"},"button":{"background":"#b3d0e4","text":"#000000"}},"corners":"normal","padding":"small","transparency":"5","content":{"message":"Our website uses cookies. This helps us provide you with a good experience on our website. To see what cookies we use and what they do, and to opt-in on non-essential cookies click \"change settings\". For a detailed explanation, click on \"Privacy Policy\" otherwise click \"Accept Cookies\" to enter.","button":"Accept","link":"Read More.."},"position":"center"})});</script> -->
     <script src="js/main.js"></script>
 </div>

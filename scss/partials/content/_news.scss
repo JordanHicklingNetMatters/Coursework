@@ -1,19 +1,17 @@
-.parent-conatiner {
-    width: 65%;
+.flex-container {
+    gap: 2%;
 }
 
 #news-text {
     font-size: 2.7rem;
 }
 
-.card-space {
-    margin-top: 20px;
-}
 .main-article-img {
     width: 100%;
 }
 .news-content {
     box-shadow: 0 0 3px rgb(0, 0, 0);
+    width: 90%;
     // width: 100%;
 }
 .h4-news {

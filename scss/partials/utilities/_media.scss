@@ -36,6 +36,9 @@
     .sidebar-navigation {
         display: none;
     }
+    .news-content {
+        margin-bottom: 20px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -87,11 +90,15 @@
     .trustpilot-btn {
         width: 34%;
     }
-    .news {
-        margin-left: 40px;
-    }
     .hidden-card {
         display: none;
+    }
+    .flex-container {
+        display: flex;
+    }
+    .news-content {
+        margin-left: 35px;
+    }
     }
     // .fourth-card {
     //     float: right;
@@ -109,18 +116,12 @@
     //     float: left;
     //     width: 50%;
     // } Will be uncommented once done. The float does not work and this needs to be researched. 
-}
+
 
 // screensizes with less than 999px
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .main-nav {
-        display: none;
-    }
-    .support-btn {
-        display: none;
-    }
-    .contact-btn {
         display: none;
     }
     .main-search-btn {
@@ -128,9 +129,6 @@
     }
     #banner {
         text-align: center;
-    }
-    .parent-conatiner {
-        width: 96%;
     }
     .contact-btn {
         display: none;
@@ -180,9 +178,6 @@
     .small-screen {
         display: none;
     }
-    .flex-container {
-        display: flex;
-    }
     // .about-section {
     //     display: flex;
     //     flex-wrap: wrap;
@@ -200,4 +195,10 @@
     //     margin-left: 10px;
     //     padding-right: 10px;
     // } //This does not work right now and needs working on.
+}
+
+@media (min-width: 1260px) {
+    .hidden-card {
+        display: inline;
+    }
 }

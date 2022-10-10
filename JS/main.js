@@ -97,27 +97,11 @@ function closeNav(){
 //
 //=======================================================
 
-// $(document).ready(function(){
-//   $('.sponsers-carousel').slick({
-//     slidesToShow: 3,
-//     slidesToScroll: 1,
-//     autoplay: true,
-//     autoplaySpeed: 2000,
-//   });
-// });
-
-// $('.sponsers-carousel').flickity({
+// let flkty = new Flickity( '.sponsers-carousel', {
 //   // options
 //   cellAlign: 'left',
-//   contain: true,
-//   wrapAround: true
+//   contain: true
 // });
-
-let flkty = new Flickity( '.sponsers-carousel', {
-  // options
-  cellAlign: 'left',
-  contain: true
-});
 
 //=======================================================
 //
@@ -139,6 +123,18 @@ let flkty = new Flickity( '.sponsers-carousel', {
 //   centerMode: true,
 //   variableWidth: true
 // });
+
+$(document).ready(function(){
+  $('.carousel-sponser').slick({
+      accessibility: true,
+      infinite: true,
+      autoplay: true,
+      speed: 300,
+      slidesToShow: 1,
+      centerMode: true,
+      variableWidth: true
+  });
+});
 
 //=======================================================
 //
