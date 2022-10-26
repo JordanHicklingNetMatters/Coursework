@@ -34,7 +34,7 @@
         width: 100%;
     }
     .sidebar-navigation {
-        display: none;
+        display: none !important;
     }
     .news-content {
         margin-bottom: 20px;
@@ -43,7 +43,7 @@
 
 @media (min-width: 768px) {
     .contact {
-        display: none;
+        display: none !important;
     }
     .header {
         height: 10vh;
@@ -91,13 +91,16 @@
         width: 34%;
     }
     .hidden-card {
-        display: none;
+        display: none !important;
     }
     .flex-container {
         display: flex;
     }
     .news-content {
         margin-left: 35px;
+    }
+    .main-search-btn {
+        display: none !important;
     }
     }
     // .fourth-card {
@@ -122,22 +125,22 @@
 
 @media (max-width: 991px) {
     .main-nav {
-        display: none;
+        display: none !important;
     }
     .main-search-btn {
-        display: none;
+        display: none !important;
     }
     #banner {
         text-align: center;
     }
     .contact-btn {
-        display: none;
+        display: none !important;
     }
     .support-btn {
-        display: none;
+        display: none !important;
     }
     .big-screen {
-        display: none;
+        display: none !important;
     } // Hides the two buttons on the header on smaller screens.
 } //This is just a test media query Right now that will make the main navigation disappaer if its less than 980px wide.
 
@@ -158,7 +161,7 @@
         display: none;
     }
     .search-btn {
-        display: none;
+        display: none !important;
     } // Hides the form control (search bar) from screens over 1000 px.
     .hamburger-btn {
         height: 60px;
@@ -170,13 +173,13 @@
         line-height: 5rem;
     }
     .visible-smaller {
-        display: none;
+        display: none !important;
     }
     .dash {
         margin-left: 20px;
     }
     .small-screen {
-        display: none;
+        display: none !important;
     }
     // .about-section {
     //     display: flex;

@@ -35,7 +35,6 @@
 }
 .main-nav a:hover .software {
   background-color: #67809f;
-  border: 2px solid red;
 }
 .main-nav a:hover .support {
   background-color: #20caf5;
@@ -214,11 +213,8 @@
   height: 60px;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 2;
+.header-up {
+  top: -50px;
 }
 
 .first-cell {
@@ -811,7 +807,7 @@ footer .services-list {
     width: 100%;
   }
   .sidebar-navigation {
-    display: none;
+    display: none !important;
   }
   .news-content {
     margin-bottom: 20px;
@@ -819,7 +815,7 @@ footer .services-list {
 }
 @media (min-width: 768px) {
   .contact {
-    display: none;
+    display: none !important;
   }
   .header {
     height: 10vh;
@@ -867,7 +863,7 @@ footer .services-list {
     width: 34%;
   }
   .hidden-card {
-    display: none;
+    display: none !important;
   }
   .flex-container {
     display: flex;
@@ -875,25 +871,28 @@ footer .services-list {
   .news-content {
     margin-left: 35px;
   }
+  .main-search-btn {
+    display: none !important;
+  }
 }
 @media (max-width: 991px) {
   .main-nav {
-    display: none;
+    display: none !important;
   }
   .main-search-btn {
-    display: none;
+    display: none !important;
   }
   #banner {
     text-align: center;
   }
   .contact-btn {
-    display: none;
+    display: none !important;
   }
   .support-btn {
-    display: none;
+    display: none !important;
   }
   .big-screen {
-    display: none;
+    display: none !important;
   }
 }
 @media (min-width: 992px) {
@@ -910,7 +909,7 @@ footer .services-list {
     display: none;
   }
   .search-btn {
-    display: none;
+    display: none !important;
   }
   .hamburger-btn {
     height: 60px;
@@ -922,13 +921,13 @@ footer .services-list {
     line-height: 5rem;
   }
   .visible-smaller {
-    display: none;
+    display: none !important;
   }
   .dash {
     margin-left: 20px;
   }
   .small-screen {
-    display: none;
+    display: none !important;
   }
 }
 @media (min-width: 1260px) {

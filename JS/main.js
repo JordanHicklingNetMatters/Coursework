@@ -62,6 +62,45 @@ function closeNav(){
 //
 //=======================================================
 
+// Hide header on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var headerHeight = $('header').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If scrolled down and past the navbar, add class .nav-up.
+    if (st > lastScrollTop && st > headerHeight){
+        // Scroll Down
+        $('header').removeClass('header-down').addClass('header-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('header-up').addClass('header-down');
+        }
+    }
+  
+    lastScrollTop = st;
+}
+
+
 // const header = document.querySelector('header');
 // let scrollPosition = 0;
 
