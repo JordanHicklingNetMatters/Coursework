@@ -11,9 +11,9 @@ const closeButton = document.querySelector('.close-btn');
 //Open navigation on hamburger click. 
 hamburgerButton.addEventListener("click", openNav)
 // Basic function to lock the scroll it currently locks the screen once then locks it completely once you exit then press it again it allows scrolling therefore this is not working. 
-function lockScroll() {
-    document.body.classList.toggle('lock-scroll');
-}
+// function lockScroll() {
+//     document.body.classList.toggle('lock-scroll');
+// }
 
 function openNav(){
     document.getElementsByClassName("sidebar")[0].style.width = "28%";
