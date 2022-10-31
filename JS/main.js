@@ -16,8 +16,8 @@ function lockScroll() {
 }
 
 function openNav(){
-    document.getElementsByClassName("sidebar")[0].style.width = "30%";
-    document.getElementById("main").style.marginRight = "28%";
+    document.getElementsByClassName("sidebar")[0].style.width = "28%";
+    document.getElementById("main").style.marginRight = "25%";
     document.getElementsByClassName("sidebar")[0].style.boxShadow = "0 0 0 10000px rgba(0,0,0,.50)";
 }
 
@@ -27,7 +27,7 @@ function closeNav(){
     document.getElementsByClassName("sidebar")[0].style.width = "0";
     document.getElementById("main").style.marginRight = "0";
     document.getElementsByClassName("sidebar")[0].style.boxShadow = "0 0 0 10000px rgba(0,0,0,0)";
-} 
+}
 
 // =====================================================================================================================================================================
 
@@ -36,7 +36,7 @@ function closeNav(){
 // Using this code I have tried to manipulate the tags and classes to those of mine and hopefully make it work however it did not. I need to look further into this. 
 
 // document.addEventListener('click', function handleClickOutsideSidebar(event) {
-//     // 👇️ the element the user clicked
+//     // the element the user clicked
 //     console.log('user clicked: ', event.target);
   
 //     const sidebar = document.getElementsByClassName('sidebar');
