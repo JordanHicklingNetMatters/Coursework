@@ -201,11 +201,11 @@ function hasScrolled() {
 //
 //=======================================================
 
-let flkty = new Flickity( '.sponsers-carousel', {
-  // options
-  cellAlign: 'left',
-  contain: true
-});
+// let flkty = new Flickity( '.sponsers-carousel', {
+//   // options
+//   cellAlign: 'left',
+//   contain: true
+// });
 
 //=======================================================
 //

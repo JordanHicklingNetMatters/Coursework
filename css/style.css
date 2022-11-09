@@ -32,7 +32,6 @@
   list-style-type: none;
   text-transform: uppercase;
   text-align: center;
-  box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0);
 }
 .main-nav a:hover .software {
   background-color: #67809f;
@@ -787,6 +786,87 @@ footer .services-list {
   color: white;
 }
 
+.flex-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.text-nav-container {
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: gray;
+  color: black;
+}
+
+.text-nav {
+  display: none;
+  padding: 20px;
+  font-size: 15px;
+}
+.text-nav a {
+  text-decoration: none;
+  color: #272a36;
+}
+
+#office-header {
+  font-size: 2.25rem;
+  color: #333645;
+  font-weight: 400;
+}
+
+.location-container {
+  width: 17.1vw;
+  height: 60vh;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.location-img {
+  width: 17vw;
+  border-radius: 10px;
+}
+
+.location-header a {
+  cursor: pointer;
+  color: #333645;
+  text-decoration: none;
+  font-weight: 300;
+}
+.location-header a:hover {
+  text-decoration: underline;
+}
+
+.location-details {
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.location-phone-num a {
+  font-size: 30px;
+  cursor: pointer;
+  color: #926fb1;
+  text-decoration: none;
+}
+.location-phone-num a:hover {
+  text-decoration: underline;
+}
+
+.view-more-button-tag {
+  font-size: 16px;
+  height: 50px;
+  width: 120px;
+  background-color: #926fb1;
+  border-color: #926fb1;
+  color: white;
+}
+.view-more-button-tag a {
+  cursor: pointer;
+}
+
 @media (min-width: 600px) {
   .trustpilot-btn {
     width: 50%;
@@ -821,6 +901,9 @@ footer .services-list {
 @media (min-width: 768px) {
   .contact {
     display: none !important;
+  }
+  .text-nav {
+    display: inline;
   }
   .header {
     height: 10vh;
