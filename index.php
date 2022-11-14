@@ -225,74 +225,7 @@
     <div class="container">
             <h2 id="news-text">Latest News</h2>
             <!-- Latest News section of the webpage -->
-        <div class="flex-container">
-            <div class="first-article">
-                <div class="news-content">
-                    <img class="main-article-img" src="img/junior-digital-marketing.jpg" alt="A picture advertising a job for junior digital marketing executive.">
-                    <h4 class="h4-news">Junior Digital Marketing Executive</h4>
-                    <p class="description">Salary Range $18,000 - £23,000 Hours 40 hours per week, Mon-Fri Location
-                        Wymondham, Norfolk. Great...</p>
-                    <a href="#"><button class="news-read-more-btn" type="button">Read More</button></a>
-                    <div class="posted-by-section">
-                        <div>
-                            <img class="avatar-img" src="img/news-avatar.png" alt="An avatar of the user who posted the article.">
-                        </div>
-                        <div class="details">
-                            <strong class="posted-strong">Posted by Netmatters</strong>
-                            <br>
-                            20th July 2022
-                        </div>
-                    </div>
-                </div>
-            </div><!-- This is the articals posted by page however when I input it, it just doesnt do anything so I will leave it commented for now. -->
-            <div class="second-article"> <!-- Second Artical -->
-                <div class="news-content">
-                    <img class="main-article-img" src="img/SEO.jpg" alt="Text stating What you dont know about seo">
-                    <h4 class="h4-news">What You Don't Know About SEO</h4>
-                    <p class="description">Technology. Competitors. Search Engine Algorithms. These factors are all
-                        inevitably goint to be ever...</p>
-                    <a href="#"><button class="news-read-more-btn" type="button">Read More</button></a>
-                    <div class="posted-by-section">
-                        <div>
-                            <img class="avatar-img" src="img/news-avatar.png"
-                                alt="An avatar of the user who posted the article.">
-                        </div>
-                        <div class="details">
-                            <strong class="posted-strong">Posted by Netmatters</strong>
-                            <br>
-                            20th July 2022
-                        </div>
-                    </div> 
-                </div>
-            </div> <!-- Third Article -->
-            <div class="hidden-card">
-                    <div class="third-article">
-                        <div class="news-content">
-                            <img class="main-article-img" src="img/new-business-executive.jpg"
-                                alt="A picture with a phone advertising jobs for new business exectuives">
-                            <h4 class="red-h4-news">New Business Executive</h4>
-                            <p class="description">Salary Range £22,000 & OTE Hours 40 hours per week, Monday - Friday
-                                Location Wymondham, Norfolk/Part...</p>
-                            <a href="#"><button class="red-news-read-more-btn" type="button">Read More</button></a>
-                            <div class="posted-by-section">
-                                <div>
-                                    <img class="avatar-img" src="img/news-avatar.png"
-                                        alt="An avatar of the user who posted the article.">
-                                </div>
-                                <div class="details">
-                                    <strong class="posted-strong">Posted by Netmatters</strong>
-                                    <br>
-                                    20th July 2022
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="view-all-section">
-            <a class="view-link" href="#">View All <em>&rarr;</em></a>
-        </div>
+        <?php include('inc/newsArticles.php'); ?>
         <?php include("inc/newsletter.php"); ?>
     <!-- Start of the chat feature -->
     <button class="open-button"><span class="fa-solid fa-comment-dots"></span></button>

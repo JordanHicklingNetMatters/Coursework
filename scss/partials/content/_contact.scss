@@ -31,14 +31,21 @@
 }
 
 .location-container {
-    width: 17.1vw;
-    height: 60vh;
+    width: 20%;
+    height: 50vh;
     border: 1px solid black;
     border-radius: 10px;
 }
 
+.location-container:hover {
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
 .location-img {
-    width: 17vw;
+    width: 19.3vw;
+    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -79,11 +86,52 @@
     background-color: #926fb1;
     border-color: #926fb1;
     color: white;
-    a:hover {
-        cursor: pointer;
-        filter: brightness(40%);
-    }
+    cursor: pointer;
 }
+
+.view-more-button-tag:hover {
+    // filter: brightness(95%);
+    background-color: #7c5d96;
+}
+
+//                 //
+// CONTACT US FORM //
+//                 //
+
+.flex-contact {
+    display: flex;
+}
+
+#contact-form {
+    background-color: #e6e7e9;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+    width: 42%;
+}
+
+.form-control {
+    height: 48px;
+    padding: 5px 15px;
+    background-color: white;
+    border-color: #ccc;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: black;
+}
+
+#message {
+    min-height: 100px;
+    height: 100px;
+    width: 100%;
+}
+
+.required {
+    color: red;
+}
+
+
 
 // .view-more-btn {
 //     // font: bold 11px Arial;
