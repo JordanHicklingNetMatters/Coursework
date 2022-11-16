@@ -17,7 +17,7 @@
             <div class="text-nav-container">
                 <h5 class="text-nav"><a href="index.php"> Home</a> / Our Offices</h5>
             </div>
-            <div class="container">
+            <br><div class="office-header-container">
                 <h3 id="office-header">Our Offices</h3>
             </div>
             <div class="flex-container">
@@ -79,9 +79,23 @@
                 </div>
             </div>
             <!-- <div class="flex-contact"> -->
-                <div class="form">
-                    <div class="container">
+            <!-- <div class="flex-container"> -->
+                <div class="container">
+                    <div class="text-format"> 
+                        <p><strong>Email us on:</strong></p>
+                        <p class="email-text"><a href="mailto:sales@netmatters.com?subject=subject text">sales@netmatters.com</a></p>
+                        <p><strong>Business hours:</strong></p>
+                        <p><strong>Monday - Friday 07:00 - 18:00</strong></p>
+                        <p class="hidden-information-text"><a href="#"><strong>Out of Hours IT support <i class="fa-sharp fa-solid fa-chevron-down"></i></strong></a></p> 
+                        <div class="dropdown-information">
+                            <p>Netmatters IT are offering an Out of Hours service for Emergency and Critical tasks.</p>
+                            <p>Monday - Friday 18:00 - 22:00 Saturday 08:00 - 16:00 Sunday 10:00 - 18:00</p>
+                            <p>To log a critical task, you will need to call our main line number and select Option 2 to leave an Out of Hours  voicemail. A technician will contact you on the number provided within 45 minutes of your call.</p>
+                        </div>
+                    </div> 
+                    <div class="form">
                         <form id="contact-form" action="inc/contactForm.php" method="POST">
+                        <div class="flex-form">     
                             <div class="form-group">
                                 <label for="name">Your Name <span class="required">*</span></label>
                                 <input class= "form-control" name="name" type="text" id="name">
@@ -91,6 +105,8 @@
                                 <label for="company-name">Company Name</label>
                                 <input class= "form-control" name="company-name" type="text" id="company-name">
                             </div>
+                        </div>
+                        <div class="flex-form">  
                             <div class="form-group">
                                 <label for="email">Your Email <span class="required">*</span></label>
                                 <input class= "form-control" name="email" type="email" id="email">
@@ -102,6 +118,7 @@
                                 <input class= "form-control" name="telephone" type="text" id="telephone">
                                 <p id="telephone-warning"><span class="required">*</span> You need to put in a telephone<p>
                             </div>
+                        </div>
                             <div class="form-group">
                                 <label for="subject">Subject <span class="required">*</span></label>
                                 <input class= "form-control" name="subject" type="text" id="subject">
@@ -115,20 +132,15 @@
                                     marketing information from us. Please see our <a href=#>Privacy Policy</a> for more information
                                     on how we keep your data safe.
                                 </label>
-                            <div class="form-group">
-                                <button class="view-more-button-tag" type="submit" name="submit">SEND ENQURY</button>
+                            <div class="button-field-flex">
+                                <div class="form-group">
+                                    <button class="view-more-button-tag" type="submit" name="submit">SEND ENQURY</button>
+                                </div>
+                                <p id="field-text"><span class="required">*</span> Fields Required</p>
                             </div>
                         </form>
                     </div>
                 </div>
-                    <div class="flex-container">
-                        <p><strong>Email us on:</strong></p>
-                        <br>
-                        <p><a href="#">sales@netmatters.com</a></p>
-                        <p><strong>Business hours:</strong></p>
-                        <br>
-                        <p><strong>Monday - Friday 07:00 - 18:00</strong></p>
-                    </div>
             <!-- </div> -->
             <?php include("inc/newsletter.php"); ?>
             <?php include("inc/footer.php"); ?>

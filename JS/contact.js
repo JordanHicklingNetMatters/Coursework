@@ -66,3 +66,11 @@ form.addEventListener('submit', (e) => {
         document.getElementById("message-warning").style.display="none";
     }
 })
+
+
+// const hiddenText = document.querySelector('.hidden-information-text')
+
+// hiddenText.addEventListener("click", displayInformation)
+// function displayInformation() {
+//     document.getElementsByClassName('dropdown-information')[0].style.display="block";
+// }

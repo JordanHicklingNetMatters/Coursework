@@ -54,14 +54,13 @@
 
 
   .search-btn { // The search button for the form. 
-    margin-top: 1px;
     height: 40px;
     width: 40px;
     background-color: #e3e3e3;
     color: #333645;
     font-size: 20px;
     border: none;
-    margin-left: -10px;
+    float: left;
     &:hover {
         cursor: pointer;
     }

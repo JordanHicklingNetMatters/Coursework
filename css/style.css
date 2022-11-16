@@ -171,6 +171,10 @@
   margin-left: 0;
 }
 
+.header-down {
+  height: 40%;
+}
+
 .header-content {
   margin-top: 8px;
   padding: 20px;
@@ -196,9 +200,9 @@
   margin-left: 120px;
 }
 
-.form-control {
+.search-bar {
   float: left;
-  width: 93%;
+  width: 80%;
   height: 40px;
   margin-bottom: 10px;
   background-color: #e3e3e3;
@@ -792,13 +796,20 @@ footer .services-list {
   padding-right: 15px;
 }
 
+.office-header-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .text-nav-container {
   height: 40px;
   padding: 10px;
-  text-align: center;
   border: 1px solid black;
-  background-color: gray;
+  background-color: white;
   color: black;
+  margin-top: 10px;
 }
 
 .text-nav {
@@ -878,6 +889,34 @@ footer .services-list {
   background-color: #7c5d96;
 }
 
+.text-format {
+  line-height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.dropdown-information {
+  display: none;
+}
+
+.email-text a {
+  font-weight: 600;
+  font-size: 25px;
+  color: #926fb1;
+  text-decoration: none;
+}
+.email-text a:hover {
+  text-decoration: underline;
+}
+
 .flex-contact {
   display: flex;
 }
@@ -887,12 +926,11 @@ footer .services-list {
   border-radius: 10px;
   padding: 30px;
   margin-top: 30px;
-  width: 42%;
+  width: 66%;
 }
 
 .form-control {
   height: 48px;
-  padding: 5px 15px;
   background-color: white;
   border-color: #ccc;
   width: 100%;
@@ -901,6 +939,17 @@ footer .services-list {
   color: black;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-form {
+  display: flex;
+  gap: 3%;
+  width: 100%;
+}
+
+.button-field-flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 #message {
@@ -977,6 +1026,12 @@ footer .services-list {
   }
   .news-content {
     margin-bottom: 20px;
+  }
+  #contact-form {
+    width: 100%;
+  }
+  .text-nav-container {
+    display: none;
   }
 }
 @media (min-width: 768px) {
@@ -1074,7 +1129,7 @@ footer .services-list {
   .header {
     height: 16vh;
   }
-  header .form-control {
+  header .search-bar {
     display: none;
   }
   .search-btn {
@@ -1098,10 +1153,17 @@ footer .services-list {
   .small-screen {
     display: none !important;
   }
+  .text-nav-container {
+    margin-top: 0;
+  }
 }
 @media (min-width: 1260px) {
   .hidden-card {
     display: inline;
+  }
+  .text-format {
+    float: right;
+    margin-right: 100px;
   }
 }
 .main-nav a .app {
@@ -1192,14 +1254,13 @@ footer .services-list {
 }
 
 .search-btn {
-  margin-top: 1px;
   height: 40px;
   width: 40px;
   background-color: #e3e3e3;
   color: #333645;
   font-size: 20px;
   border: none;
-  margin-left: -10px;
+  float: left;
 }
 .search-btn:hover {
   cursor: pointer;

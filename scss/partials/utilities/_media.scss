@@ -39,6 +39,12 @@
     .news-content {
         margin-bottom: 20px;
     }
+    #contact-form {
+        width: 100%;
+    }
+    .text-nav-container {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
@@ -160,7 +166,7 @@
     .header {
         height: 16vh;
     }
-    header .form-control {
+    header .search-bar {
         display: none;
     }
     .search-btn {
@@ -184,6 +190,9 @@
     .small-screen {
         display: none !important;
     }
+    .text-nav-container {
+        margin-top: 0;
+    }
     // .about-section {
     //     display: flex;
     //     flex-wrap: wrap;
@@ -206,5 +215,9 @@
 @media (min-width: 1260px) {
     .hidden-card {
         display: inline;
+    }
+    .text-format {
+        float: right;
+        margin-right: 100px;
     }
 }

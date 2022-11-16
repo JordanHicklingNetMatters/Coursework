@@ -13,11 +13,13 @@
                         <button class="hamburger-btn fa-solid fa-bars" type="button"></button>
                     </div>
                 </div>
-                <form>
-                    <input class="form-control search-bar" placeholder=" Search..." id="search-input" name="keyword" type="text" value="">
-                    <button class="search-btn fa-solid fa-magnifying-glass" type="submit"></button>
-                </form>
             </div>
+            <form>
+                <div class="flex-container">
+                    <input class="search-bar" placeholder=" Search..." id="search-input" name="keyword" type="text" value="">
+                    <button class="search-btn fa-solid fa-magnifying-glass" type="submit"></button>
+                </div>
+            </form>
     </header> <!-- End of the header navigation -->
             <!-- The main navigation bar for anyone over 900 pixel screens -->
             <nav class="main-nav">
