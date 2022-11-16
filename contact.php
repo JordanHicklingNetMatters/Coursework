@@ -128,7 +128,6 @@
                     <br>
                     <p><strong>Monday - Friday 07:00 - 18:00</strong></p>
                 </div>
-                <?php var_dump($_POST); ?>
         <!-- </div> -->
         <?php include("inc/newsletter.php"); ?>
         <?php include("inc/footer.php"); ?>

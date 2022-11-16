@@ -20,7 +20,7 @@
     $stmt->bindParam(':message', $message);
     $stmt->execute();
     var_dump($_POST);
-    // header("Location: ../contact.php?information=success");
+    header("Location: ../contact.php");
     } catch (Exception $e) {
         echo "Error Connecting To Database";
     }

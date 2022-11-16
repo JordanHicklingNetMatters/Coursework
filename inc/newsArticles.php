@@ -9,7 +9,7 @@
     // $date = $_GET['dateposted'][1];
 
     $sql = "SELECT * FROM news WHERE id=1;";
-    $result = $conn->query($sql)
+    $result = $conn->query($sql);
     // $resultCheck = mysqli_num_rows($articleOne);
 
 
@@ -22,10 +22,10 @@
 <div class="flex-container">
     <div class="first-article">
         <div class="news-content">
-            <img class="main-article-img" src="img/junior-digital-marketing.jpg" alt="A picture advertising a job for junior digital marketing executive.">
             <?php
-            if ($result->num_rows > 0)  { //checks the results if its 0 then it can run the code (prevents errors)
-                while ($row = $results->fetch_assoc()) {
+            if ($result->rowCount() > 0)  { //checks the results if its 0 then it can run the code (prevents errors)
+                while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
+                    echo '<img class="main-article-img" src="' . $row['imgsrc'] . '" alt="A picture advertising a job for junior digital marketing executive.">';
                     echo '<h4 class="h4-news">' . $row['title'] . '</h4>';
                     echo '<p class="description">' . $row['description'] . '</p>';
                     echo '<a href="#"><button class="news-read-more-btn" type="button">Read More</button></a>';
@@ -47,13 +47,13 @@
 
     <div class="second-article"> <!-- Second Artical -->
         <div class="news-content">
-            <img class="main-article-img" src="img/SEO.jpg" alt="Text stating What you dont know about seo">
             <?php 
                 $secondSql = "SELECT * FROM news WHERE id=2;";
                 $secondResults = $conn->query($secondSql);
             
-                if ($result->mysql_num_rows > 0) { //checks the results if its 0 then it can run the code (prevents errors)
-                    while ($row = $results->fetch_assoc()) {
+                if ($result->rowCount() > 0) { //checks the results if its 0 then it can run the code (prevents errors)
+                    while ($row = $secondResults->fetch(PDO::FETCH_ASSOC)) {
+                        echo '<img class="main-article-img" src="' . $row['imgsrc'] . '" alt="Text stating What you dont know about seo">';
                         echo '<h4 class="h4-news">' . $row['title'] . '</h4>';
                         echo '<p class="description">' . $row['description'] . '</p>';
                         echo '<a href="#"><button class="news-read-more-btn" type="button">Read More</button></a>';
